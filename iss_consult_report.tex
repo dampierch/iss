@@ -59,36 +59,29 @@
 
 \begin{tabular}{@{} L{0.3\linewidth} L{0.3\linewidth} @{}} % Column widths specified here, change as needed for your content
 	\toprule
-	ISS Accession \# & \input{input/sample.tex}\\
+	ISS Accession \# & \input{tmp/sample.tex}\\
 	Specimen Source & External IDAT\\
-	IDAT Label & \input{input/id.tex}\\
+	IDAT Label & \input{tmp/id.tex}\\
 	\bottomrule
 \end{tabular}
 
 \subsection*{In-silico Diagnosis}
 \begin{tabular}{@{} L{0.2\linewidth} L{0.5\linewidth} L{0.2\linewidth} @{}} % Column widths specified here, change as needed for your content
 	\toprule
-	DKFZ v11 & \input{input/class1.tex} & \input{input/class1.score.tex}\\
-	DKFZ v12 & \input{input/cnsv12b6.subclass1.tex} & \input{input/cnsv12b6.subclass1.score.tex}\\
-	NCI/Bethesda & \input{input/consistency_class.tex} & \input{input/consistency_score.tex}\\
+	DKFZ v11 & \input{tmp/class1.tex} & \input{tmp/class1.score.tex}\\
+	DKFZ v12 & \input{tmp/cnsv12b6.subclass1.tex} & \input{tmp/cnsv12b6.subclass1.score.tex}\\
+	NCI/Bethesda & \input{tmp/consistency_class.tex} & \input{tmp/consistency_score.tex}\\
 	\textbf{Consensus Class} & \textbf{See note}\\
 	\bottomrule
 \end{tabular}
 
 \par
-\textbf{NOTE:}
-DNA methylation-based tumor classification using versions 11b6 and 12b6 of the DKFZ/Heidelberg classifier as well as the NCI/Bethesda classifier results in low-score matches to PXA and GBM RTK2.
-Unsupervised clustering using graph-based modularity optimization partitions the query sample with most of the high-score PXA samples in the NCI database, and dimensionality reduction with UMAP (Uniform Manifold Approximation and Projection) places the query sample in a region enriched for high-score PXA samples.
-Overall, the consensus methylation profile is most consistent with PXA.
+\textbf{NOTE:} \input{note.tex}
 
 {\footnotesize
-METHODS:
-Output from the Illumina iScan reader was received in Molecular Pathology as one green and one red IDAT file.
-Signal processing, methylation-based tumor classification, 1p/19q copy number status, and MGMT promoter methylation analysis were carried out using established classifiers obtained from the DKFZ in Heidelberg, Germany, as applied using an in-house pipeline as well as using an in-house classifier developed at the NCI.
-Testing for 1p/19q copy number, where appropriate, has been clinically validated using DNA copy number analysis derived from the array data.	
+METHODS: \input{methods.tex}
 
-DISCLAIMER:
-DNA methylation profiling is intended to provide supplementary information for diagnosis and should be interpreted by qualified pathologists. These tests have not been cleared or approved by the US Food and Drug Administration (FDA). The FDA has determined that such clearance or approval is not necessary. Performance characteristics of the test were validated by the Laboratory of Pathology, CCR, NCI in a manner consistent with CLIA requirements. Testing, data analysis, and interpretation is performed per developer recommendations. This laboratory is certified under the Clinical Laboratory Improvement Amendments of 1988 (CLIA-88) as qualified to perform high complexity clinical laboratory testing.
+DISCLAIMER: \input{disclaimer.tex}
 }
 %----------------------------------------------------------------------------------------
 
@@ -104,10 +97,7 @@ DNA methylation profiling is intended to provide supplementary information for d
 \par
 {\tiny
 \textbf{REFERENCES:}\\
-1.	Capper D., et al., Nature. 2018 Mar 22;555(7697):469-474.\\
-2.	Koelsche, C., et al. Nat Commun 12, 498 (2021).\\
-3.	Wu Z., et.al., Neuro Oncol. 2021 Sep 23:1-11.\\
-4.	Pratt D., et.al., Neuro Oncol. 2021 Nov 2:S16-S29.\\
+\input{ref.tex}
 }
 
 \end{document}

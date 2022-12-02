@@ -2,17 +2,18 @@
 
 ## bash script to create consultation report
 
-OUTDIR=input/
+export TMP=tmp/
 
 prepare_input() {
     printf "preparing input...\n"
-    indir=/data/MDATA/compass/external_raw/206648960113/
+    printf "path to input files (e.g. /data/dir/): "
+    read indir
 
-    mkdir -p ${OUTDIR}
-    rsync -avz ${indir}*_KNN.combined.csv ${OUTDIR}
-    rsync -avz ${indir}bin_classifier_output.csv ${OUTDIR}
+    mkdir -p ${TMP}
+    rsync -avz ${indir}*_KNN.combined.csv ${TMP}
+    rsync -avz ${indir}bin_classifier_output.csv ${TMP}
 
-    dos2unix ${OUTDIR}*.csv
+    dos2unix ${TMP}*.csv
 }
 
 run_r() {
@@ -43,7 +44,7 @@ cleanup_input() {
     if [ -f *.pdf ]
     then
         printf "cleaning up input...\n"
-        rm -r ${OUTDIR}
+        rm -r ${TMP}
     fi
 }
 

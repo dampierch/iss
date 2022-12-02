@@ -21,7 +21,7 @@ make_tex <- function(df) {
         )
     }
     for (e in j) {
-        f <- paste0("input/", tolower(e), ".tex")
+        f <- paste0(Sys.getenv("TMP"), tolower(e), ".tex")
         x <- unname(unlist(df[1, e]))
         x <- format_x(x)
         if (grepl("_", x)) {
@@ -30,12 +30,15 @@ make_tex <- function(df) {
             write(x, file=f)
         }
     }
+
 }
 
 main <- function() {
-    df <- read_csv("input/bin_classifier_output.csv")
+    f <- paste0(Sys.getenv("TMP"), "bin_classifier_output.csv")
+    df <- read_csv(f)
     make_tex(df)
-    df <- read_csv("input/206648960113_KNN.combined.csv")
+    f <- Sys.glob(paste0(Sys.getenv("TMP"), "*_KNN.combined.csv"))
+    df <- read_csv(f)
     make_tex(df)
 }
 

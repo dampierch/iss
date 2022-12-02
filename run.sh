@@ -12,4 +12,6 @@
 #SBATCH --mail-type=END
 #SBATCH --mail-user=chris.dampier@nih.gov
 
-./report.sh
+path=$1
+
+./report.sh ${path}

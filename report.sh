@@ -1,13 +1,24 @@
 #!/bin/bash
 
 ## bash script to create consultation report
+## usage on biowulf via sinteractive or sbatch
+## ex1: ./report (will request input path)
+## ex2: sbatch run.sh /path/to/input/files/ 
 
 export TMP=tmp/
+path=$1
 
 prepare_input() {
     printf "preparing input...\n"
-    printf "path to input files (e.g. /data/dir/): "
-    read indir
+
+    l=${#path}
+    if [ "${l}" -gt 0 ]
+    then
+        indir=${path}
+    else
+        printf "path to input files (e.g. /data/dir/): "
+        read indir
+    fi
 
     mkdir -p ${TMP}
     rsync -avz ${indir}*_KNN.combined.csv ${TMP}

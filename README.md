@@ -8,7 +8,7 @@ On biowulf via sinteractive or sbatch
 ### sinteractive
 
 ```
-./report
+./report.sh
 path to input files (e.g. /data/dir/): /data/mydir/
 ```
 
@@ -26,7 +26,7 @@ run.sh /path/to/input/files/
 
 The scripts should read `*_KNN.combined.csv` and `bin_classifier_output.csv`.
 
-The scripts should return `iss_consult_report.pdf` in the same directory from
+The scripts should return `*_iss_consult_report.pdf` in the same directory from
 which the scripts are run, which must be the directory in which the scripts
 and icon are stored.
 

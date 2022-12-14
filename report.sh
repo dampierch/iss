@@ -29,37 +29,34 @@ prepare_input() {
 
 run_r() {
     printf "running R...\n"
+    nci_fields="Consistency_class Consistency_score"
+    dkfz_fields="ID Sample Class1 Class1.score CNSv12b6.subclass1 CNSv12b6.subclass1.score"
     module load R
-    Rscript make_tex.r
+    Rscript make_tex.r --args ${nci_fields} ${dkfz_fields}
 }
 
 make_tex() {
     printf "making latex document...\n"
+    tname=iss_consult_report
+    sid=$(<tmp/sample.tex)
+    rname=${sid}_${tname}
     module load tex
-    fpre=iss_consult_report
-    pdflatex ${fpre}
-    pdflatex ${fpre}
-    if [ -f ${fpre}.pdf ]
+    pdflatex ${tname}
+    pdflatex ${tname} && mv ${tname}.pdf ${rname}.pdf
+    if [ -f ${rname}.pdf ]
     then
-        printf "%s.pdf exists!\nremoving intermediate files...\n" "${fpre}"
+        printf "%s.pdf exists!\nremoving intermediate files...\n" "${rname}"
         for e in aux bcf log out run.xml
         do
-            rm ${fpre}.${e}
+            rm ${tname}.${e}
         done
-    else
-        printf "%s.pdf does not exist\nrecommend investigation...\n" "${fpre}"
-    fi
-}
-
-cleanup_input() {
-    if [ -f *.pdf ]
-    then
         printf "cleaning up input...\n"
         rm -r ${TMP}
+    else
+        printf "%s.pdf does not exist\nrecommend investigation...\n" "${rname}"
     fi
 }
 
 prepare_input
 run_r
 make_tex
-cleanup_input

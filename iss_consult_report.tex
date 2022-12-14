@@ -44,7 +44,6 @@
 
 \thispagestyle{empty} % Suppress headers and footers on this page
 
-%\begin{fullwidth} % Use the whole page width
 \vspace*{-0.075\textheight} % Pull logo into the top margin
 
 \hspace*{-0.5cm}\includegraphics[width=8cm]{CCR_36pxLogoGREY.png} % Company logo
@@ -71,7 +70,7 @@
 	DKFZ v11 & \input{tmp/class1.tex} & \input{tmp/class1.score.tex}\\
 	DKFZ v12 & \input{tmp/cnsv12b6.subclass1.tex} & \input{tmp/cnsv12b6.subclass1.score.tex}\\
 	NCI/Bethesda & \input{tmp/consistency_class.tex} & \input{tmp/consistency_score.tex}\\
-	\textbf{Consensus Class} & \textbf{See note}\\
+	\textbf{Consensus Class} & \textbf{\input{tmp/cc.tex}}\\
 	\bottomrule
 \end{tabular}
 
@@ -83,17 +82,13 @@ METHODS: \input{methods.tex}
 
 DISCLAIMER: \input{disclaimer.tex}
 }
-%----------------------------------------------------------------------------------------
+
 
 %----------------------------------------------------------------------------------------
 %	REFERENCES
 %----------------------------------------------------------------------------------------
 
-%\section*{References}
 
-%This statement requires citation \autocite{Smith:2024jd}.
-
-%\end{fullwidth}
 \par
 {\tiny
 \textbf{REFERENCES:}\\

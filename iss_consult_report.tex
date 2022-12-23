@@ -12,6 +12,8 @@
 % License:
 % CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/)
 %
+% Modified by Chris Dampier, NCI
+%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %----------------------------------------------------------------------------------------
@@ -20,7 +22,7 @@
 
 \documentclass[
 	letterpaper, % Paper size, use either a4paper or letterpaper
-	11pt, % Default font size, the template is designed to look good at 12pt
+	10pt, % Default font size, the template is designed to look good at 12pt
 	%unnumberedsections, % Uncomment for no section numbering
 ]{CSSullivanBusinessReport}
 
@@ -30,7 +32,7 @@
 
 \reporttitle{Laboratory of Pathology} % The report title to appear on the title page and page headers, do not create manual new lines here as this will carry over to page headers
 
-\reportsubtitle{In-silico Sample Consultation Report} % Report subtitle, include new lines if needed
+\reportsubtitle{In Silico Sample Consultation Report} % Report subtitle, include new lines if needed
 
 \reportdate{\today} % Report date, include new lines for additional information if needed
 
@@ -39,14 +41,14 @@
 \begin{document}
 
 %----------------------------------------------------------------------------------------
-%	TITLE PAGE
+%	REPORT
 %----------------------------------------------------------------------------------------
 
 \thispagestyle{empty} % Suppress headers and footers on this page
 
 \vspace*{-0.075\textheight} % Pull logo into the top margin
 
-\hspace*{-0.5cm}\includegraphics[width=8cm]{CCR_36pxLogoGREY.png} % Company logo
+\hspace*{-0.55cm}\includegraphics[width=8cm]{CCR_36pxLogoGREY.png} % Company logo
 
 {\fontsize{18pt}{20pt}\selectfont\raggedright\textbf{\reporttitle}\par} % Report title, intentionally at less than full width for nice wrapping. Adjust the width of the \parbox and the font size as needed for your title to look good.
 
@@ -64,8 +66,8 @@
 	\bottomrule
 \end{tabular}
 
-\subsection*{In-silico Diagnosis}
-\begin{tabular}{@{} L{0.2\linewidth} L{0.5\linewidth} L{0.2\linewidth} @{}} % Column widths specified here, change as needed for your content
+\subsection*{In Silico Diagnosis}
+\begin{tabular}{@{} L{0.3\linewidth} L{0.3\linewidth} L{0.3\linewidth} @{}} % Column widths specified here, change as needed for your content
 	\toprule
 	DKFZ v11 & \input{tmp/class1.tex} & \input{tmp/class1.score.tex}\\
 	DKFZ v12 & \input{tmp/cnsv12b6.subclass1.tex} & \input{tmp/cnsv12b6.subclass1.score.tex}\\
@@ -75,24 +77,15 @@
 \end{tabular}
 
 \par
-\textbf{NOTE:} \input{note.tex}
+\subsection*{Note}
+\input{note.tex}
 
 {\footnotesize
-METHODS: \input{methods.tex}
+\textbf{METHODS:} \input{methods.tex}
 
-DISCLAIMER: \input{disclaimer.tex}
-}
+\textbf{DISCLAIMER:} \input{disclaimer.tex}
 
-
-%----------------------------------------------------------------------------------------
-%	REFERENCES
-%----------------------------------------------------------------------------------------
-
-
-\par
-{\tiny
-\textbf{REFERENCES:}\\
-\input{ref.tex}
+\textbf{REFERENCES:}\\ \input{ref.tex}
 }
 
 \end{document}

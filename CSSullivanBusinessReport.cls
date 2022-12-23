@@ -40,7 +40,7 @@
 \graphicspath{{icon/}{./}} % Specifies where to look for included images (trailing slash required)
 
 \setlength{\parindent}{0pt} % Paragraph indentation
-\setlength{\parskip}{10pt} % Vertical space between paragraphs
+\setlength{\parskip}{8pt} % Vertical space between paragraphs; default 10
 
 \usepackage[bottom, hang]{footmisc} % Force footnotes to the bottom of the page and to the left margin
 \setlength{\footnotemargin}{6pt} % Horizontal space between the footnote marker and text
@@ -146,7 +146,7 @@
 	{} % Code before the section title
 	[] % Code after the section title
 
-\titlespacing*{\subsection}{0pt}{0.75\baselineskip}{4pt} % Spacing around section titles, the order is: left, before and after
+\titlespacing*{\subsection}{0pt}{0.75\baselineskip}{2pt} % Spacing around section titles, the order is: left, before and after; default 0 0.75 4
 
 %------------------------------------------------
 
@@ -240,7 +240,7 @@
 \usepackage{booktabs} % Required for better horizontal rules in tables
 
 \usepackage{array} % Required for manipulating table columns
-\renewcommand{\arraystretch}{1.25} % Increase the height of table rows
+\renewcommand{\arraystretch}{1.2} % Increase the height of table rows; default 1.25
 
 \newcolumntype{R}[1]{>{\raggedleft\arraybackslash}p{#1}} % Define a new right-aligned paragraph column type
 \newcolumntype{L}[1]{>{\raggedright\arraybackslash}p{#1}} % Define a new left-aligned (no justification) paragraph column type

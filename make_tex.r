@@ -46,17 +46,62 @@ make_diagnosis <- function(l, threshold=0.85) {
     c4 <- as.numeric(l[[l$dkfz_fields[4]]]) >= threshold
     c5 <- as.numeric(l[[l$dkfz_fields[6]]]) >= threshold
     if (c1 & c2 & c3 & c4 & c5) {
+        x <- l[[l$nci_fields[1]]]
         f <- paste0(Sys.getenv("TMP"), "cc", ".tex")
-        write(l[[l$nci_fields[1]]], file=f)
+        if (grepl("_", x)) {
+            cat(unlist(strsplit(x, "_")), sep="\\_", file=f)
+        } else {
+            write(x, file=f)
+        }
         f <- paste0(Sys.getenv("TMP"), "diagnosis", ".tex")
-        write(l[[l$nci_fields[1]]], file=f)
+        if (grepl("_", x)) {
+            cat(unlist(strsplit(x, "_")), sep="\\_", file=f)
+        } else {
+            write(x, file=f)
+        }
         f <- paste0(Sys.getenv("TMP"), "score_type", ".tex")
         write("high-score", file=f)
     } else {
+        x <- l[[l$nci_fields[1]]]
+        y <- l[[l$dkfz_fields[5]]]
         f <- paste0(Sys.getenv("TMP"), "cc", ".tex")
         write("See note", file=f)
         f <- paste0(Sys.getenv("TMP"), "diagnosis", ".tex")
-        write(l[[l$nci_fields[1]]], file=f)
+        if (c2) {
+            if (grepl("_", x)) {
+                cat(unlist(strsplit(x, "_")), sep="\\_", file=f)
+            } else {
+                write(x, file=f)
+            }
+        } else {
+            if (grepl("_", x)) {
+                if (grepl("_", y)) {
+                    cat(unlist(strsplit(x, "_")), sep="\\_", file=f)
+                    cat(" or ", file=f, append=TRUE)
+                    cat(unlist(strsplit(
+                        y, "_")), sep="\\_", file=f, append=TRUE
+                    )
+                } else {
+                    cat(unlist(strsplit(x, "_")), sep="\\_", file=f)
+                    cat(" or ", file=f, append=TRUE)
+                    cat(y, file=f, append=TRUE)
+                }
+            } else if (grepl("_", y)) {
+                cat(x, file=f)
+                cat(" or ", file=f, append=TRUE)
+                cat(unlist(strsplit(
+                    y, "_")), sep="\\_", file=f, append=TRUE
+                )
+            } else {
+                write(paste(x, "or", y), file=f)
+            }
+        }
+        f <- paste0(Sys.getenv("TMP"), "bethesda", ".tex")
+        if (grepl("_", x)) {
+            cat(unlist(strsplit(x, "_")), sep="\\_", file=f)
+        } else {
+            write(x, file=f)
+        }
         f <- paste0(Sys.getenv("TMP"), "score_type", ".tex")
         write("possible", file=f)        
     }

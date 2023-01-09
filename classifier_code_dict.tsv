@@ -1,0 +1,548 @@
+classifier	subclass_code	subclass_name	family_code	family_name	standard_result	x_missing	x_score_family
+dkfz_v11	"HGNET, MN1"	astroblastoma with MN1 alteration	Not applicable 	Not applicable 	"Astroblastoma, MN1-altered"		
+dkfz_v11	"ATRT, MYC"	"atypical teratoid/rhabdoid tumor, subclass MYC"	MCF ATRT	methylation class family atypical teratoid/rhabdoid tumor	Atypical teratoid/rhabdoid tumor		1
+dkfz_v11	"ATRT, SHH"	"atypical teratoid/rhabdoid tumor, subclass SHH"	MCF ATRT	methylation class family atypical teratoid/rhabdoid tumor	Atypical teratoid/rhabdoid tumor		1
+dkfz_v11	"ATRT, TYR"	"atypical teratoid/rhabdoid tumor, subclass TYR"	MCF ATRT	methylation class family atypical teratoid/rhabdoid tumor	Atypical teratoid/rhabdoid tumor		1
+dkfz_v11	CN	central neurocytoma	Not applicable 	Not applicable 	Central neurocytoma		
+dkfz_v11	LIPN	cerebellar liponeurocytoma	Not applicable 	Not applicable 	Cerebellar liponeurocytoma		
+dkfz_v11	CHGL	chordoid glioma of the third ventricle	Not applicable 	Not applicable 	Chordoid glioma		
+dkfz_v11	CHORDM	chordoma	Not applicable 	Not applicable 	Chordoma		
+dkfz_v11	"PLEX, AD"	"choroid plexus tumor, subclass adult"	MCF PLEX T	methylation class family plexus tumor	Choroid plexus tumor		1
+dkfz_v11	"PLEX, PED A "	"choroid plexus tumor, subclass pediatric A"	MCF PLEX T	methylation class family plexus tumor	Choroid plexus tumor		1
+dkfz_v11	"PLEX, PED B"	"choroid plexus tumor, subclass pediatric B"	MCF PLEX T	methylation class family plexus tumor	Choroid plexus tumor		1
+dkfz_v11	"EFT, CIC"	CIC-rearranged sarcoma	Not applicable 	Not applicable 	CIC-rearranged sarcoma		
+dkfz_v11	"CNS NB, FOXR2"	"CNS neuroblastoma, FOXR2-activated"	Not applicable 	Not applicable 	"CNS neuroblastoma, FOXR2-activated"		
+dkfz_v11	"CPH, ADM"	"craniopharyngioma, adamantinomatous"	Not applicable 	Not applicable 	Adamantinomatous craniopharyngioma		
+dkfz_v11	"CPH, PAP"	"craniopharyngioma, papillary"	Not applicable 	Not applicable 	Papillary craniopharyngioma		
+dkfz_v11	"LGG, DIG/DIA"	desmoplastic infantile astrocytoma / ganglioglioma	Not applicable 	Not applicable 	Desmoplastic infantile astrocytoma/ganglioglioma		
+dkfz_v11	"GBM, G34"	"diffuse hemispheric glioma, H3 G34-mutant"	Not applicable 	Not applicable 	"Diffuse hemispheric glioma, H3 G34-mutant"		
+dkfz_v11	DLGNT	diffuse leptomeningeal glioneuronal tumor	Not applicable 	Not applicable 	Diffuse leptomeningeal glioneuronal tumor		
+dkfz_v11	"DMG, K27"	"Diffuse midline glioma, H3 K27-altered"	Not applicable 	Not applicable 	"Diffuse midline glioma, H3 K27-altered"		
+dkfz_v11	"GBM, MYCN"	"Diffuse pediatric-type high grade glioma, MYCN subtype"	MCF GBM 	"methylation class family glioblastoma, IDH wildtype"	"Diffuse pediatric-type high grade glioma, H3-wildtype and IDH-wildtype"		1
+dkfz_v11	"LGG, DNT"	dysembryoplastic neuroepithelial tumor	Not applicable 	Not applicable 	Dysembryoplastic neuroepithelial tumor		
+dkfz_v11	ETMR	embryonal tumor with multilayered rosettes	Not applicable 	Not applicable 	Embryonal tumor with multilayered rosettes		
+dkfz_v11	"EPN, MPE"	"ependymoma, myxopapillary"	Not applicable 	Not applicable 	Myxopapillary ependymoma		
+dkfz_v11	"EPN, PF A"	"ependymoma, posterior fossa group A"	Not applicable 	Not applicable 	Posterior fossa group A (PFA) ependymoma		
+dkfz_v11	"EPN, PF B"	"ependymoma, posterior fossa group B"	Not applicable 	Not applicable 	Posterior fossa group B (PFB) ependymoma		
+dkfz_v11	"EPN, SPINE"	"ependymoma, spinal"	Not applicable 	Not applicable 	Spinal ependymoma		
+dkfz_v11	"EPN, YAP"	"ependymoma, YAP fusion"	Not applicable 	Not applicable 	"Supratentorial ependymoma, YAP1 fusion-positive"		
+dkfz_v11	"EPN, RELA"	"ependymoma, ZFTA fusion"	Not applicable 	Not applicable 	"Supratentorial ependymoma, ZFTA fusion-positive"		
+dkfz_v11	"ENB, A"	"esthesioneuroblastoma, subclass A"	MCF ENB	methylation class family esthesioneuroblastoma	Olfactory neuroblastoma		1
+dkfz_v11	"ENB, B"	"esthesioneuroblastoma, subclass B"	MCF ENB	methylation class family esthesioneuroblastoma	Olfactory neuroblastoma		1
+dkfz_v11	EWS	Ewing sarcoma	Not applicable 	Not applicable 	Ewing sarcoma		
+dkfz_v11	"LGG, GG"	ganglioglioma	Not applicable 	Not applicable 	Ganglioglioma		
+dkfz_v11	"GBM, MES"	"glioblastoma, IDH wildtype, subclass mesenchymal"	MCF GBM 	"methylation class family glioblastoma, IDH wildtype"	"Glioblastoma, IDH-wildtype"		1
+dkfz_v11	"GBM, MID"	"glioblastoma, IDH wildtype, subclass midline (now known as Diffuse pediatric-type high-grade glioma, H3-wildtype and IDH-wildtype) "	MCF GBM 	"methylation class family glioblastoma, IDH wildtype"	"Glioblastoma, IDH-wildtype"		1
+dkfz_v11	"GBM, RTK I"	"glioblastoma, IDH wildtype, subclass RTK I"	MCF GBM 	"methylation class family glioblastoma, IDH wildtype"	"Glioblastoma, IDH-wildtype"		1
+dkfz_v11	"GBM, RTK II"	"glioblastoma, IDH wildtype, subclass RTK II"	MCF GBM 	"methylation class family glioblastoma, IDH wildtype"	"Glioblastoma, IDH-wildtype"		1
+dkfz_v11	"GBM, RTK III"	"glioblastoma, IDH wildtype, subclass RTK III"	MCF GBM 	"methylation class family glioblastoma, IDH wildtype"	"Glioblastoma, IDH-wildtype"		1
+dkfz_v11	HMB	hemangioblastoma	Not applicable 	Not applicable 	Hemangioblastoma		
+dkfz_v11	ANA PA	high grade astrocytoma with piloid features	Not applicable 	Not applicable 	High-grade astrocytoma with piloid features		
+dkfz_v11	"HGNET, BCOR"	high grade neuroepithelial tumor with BCOR alteration	Not applicable 	Not applicable 	CNS tumor with BCOR internal tandem duplication		
+dkfz_v11	O IDH	"IDH glioma, subclass 1p/19q codeleted oligodendroglioma"	MCF IDH GLM	"methylation class family glioma, IDH mutant"	"Oligodendroglioma, IDH-mutant and 1p/19q-codeleted"		
+dkfz_v11	A IDH	"IDH glioma, subclass astrocytoma"	MCF IDH GLM	"methylation class family glioma, IDH mutant"	"Astrocytoma, IDH-mutant"		
+dkfz_v11	"A IDH, HG"	"IDH glioma, subclass high grade astrocytoma "	MCF IDH GLM	"methylation class family glioma, IDH mutant"	"Astrocytoma, IDH-mutant"		
+dkfz_v11	IHG	infant-type hemispheric glioma	Not applicable 	Not applicable 	Infant-type hemispheric glioma		
+dkfz_v11	LYMPHO	lymphoma	Not applicable 	Not applicable 	Lymphoma		
+dkfz_v11	"MB, G3"	"medulloblastoma, subclass group 3"	MCF MB G3G4	methylation class family medulloblastoma group 3 and 4	"Medulloblastoma, non-WNT/non-SHH"		1
+dkfz_v11	"MB, G4"	"medulloblastoma, subclass group 4"	MCF MB G3G4	methylation class family medulloblastoma group 3 and 4	"Medulloblastoma, non-WNT/non-SHH"		1
+dkfz_v11	"MB, SHH CHL AD"	"medulloblastoma, subclass SHH A (children and adult)"	MCF MB SHH 	"methylation class family medulloblastoma, SHH"	"Medulloblastoma, SHH-activated"		1
+dkfz_v11	"MB, SHH INF"	"medulloblastoma, subclass SHH B (infant)"	MCF MB SHH 	"methylation class family medulloblastoma, SHH"	"Medulloblastoma, SHH-activated"		1
+dkfz_v11	"MB, WNT"	"medulloblastoma, WNT"	Not applicable 	Not applicable 	"Medulloblastoma, WNT-activated"		
+dkfz_v11	MELCYT	melanocytoma	Not applicable 	Not applicable 	Melanocytoma		
+dkfz_v11	MELAN	melanoma	Not applicable 	Not applicable 	Melanoma		
+dkfz_v11	"SCHW, MEL"	melanotic schwannoma	Not applicable 	Not applicable 	Melanotic schwannoma		
+dkfz_v11	MNG	meningioma	Not applicable 	Not applicable 	Meningioma		
+dkfz_v11	"LGG, MYB"	MYB/MYBL1-altered glioma	Not applicable 	Not applicable 	"Diffuse astrocytoma, MYB/MYBL1-altered"		
+dkfz_v11	"PTPR, A"	papillary tumor of the pineal region group A	Not applicable 	Not applicable 	Papillary tumor of the pineal region		
+dkfz_v11	"PTPR, B"	papillary tumor of the pineal region group B	Not applicable 	Not applicable 	Papillary tumor of the pineal region		
+dkfz_v11	"PGG, nC"	"paraganglioma, spinal non-CIMP"	Not applicable 	Not applicable 	Cauda equina neuroendocrine tumor		
+dkfz_v11	"LGG, PA/GG ST"	"pilocytic astrocytoma and ganglioglioma, hemispheric "	MCF PA	methylation class family pilocytic astrocytoma	Pilocytic astrocytoma		1
+dkfz_v11	"LGG, PA MID"	"pilocytic astrocytoma, midline "	MCF PA	methylation class family pilocytic astrocytoma	Pilocytic astrocytoma		1
+dkfz_v11	"LGG, PA PF"	"pilocytic astrocytoma, posterior fossa "	MCF PA	methylation class family pilocytic astrocytoma	Pilocytic astrocytoma		1
+dkfz_v11	"PIN T, PPT"	pineal parenchymal tumor 	Not applicable 	Not applicable 	Pineal parenchymal tumor		
+dkfz_v11	"PIN T,  PB A"	pineoblastoma group A / intracranial retinoblastoma	Not applicable 	Not applicable 	Pineoblastoma		
+dkfz_v11	"PIN T,  PB B"	pineoblastoma group B	Not applicable 	Not applicable 	Pineoblastoma		
+dkfz_v11	"PITUI, SCO, GCT"	pituicytoma / granular cell tumor / spindle cell oncocytoma	Not applicable 	Not applicable 	Pituicytoma/Granular cell tumor/Spindle cell oncocytoma		
+dkfz_v11	"PITAD, ACTH"	"pituitary adenoma, ACTH"	Not applicable 	Not applicable 	"Pituitary adenoma/neuroendocrine tumor, ACTH-producing"		
+dkfz_v11	"PITAD, FSH LH"	"pituitary adenoma, FSH/LH"	Not applicable 	Not applicable 	"Pituitary adenoma/neuroendocrine tumor, FSH/LH-producing"		
+dkfz_v11	"PITAD, PRL"	"pituitary adenoma, prolactin"	Not applicable 	Not applicable 	"Pituitary adenoma/neuroendocrine tumor, prolactin-producing"		
+dkfz_v11	"PITAD, STH DNS A"	"pituitary adenoma, STH densely granulated, group A"	Not applicable 	Not applicable 	"Pituitary adenoma/neuroendocrine tumor, HGH-producing"		
+dkfz_v11	"PITAD, STH DNS B"	"pituitary adenoma, STH densely granulated, group B"	Not applicable 	Not applicable 	"Pituitary adenoma/neuroendocrine tumor, HGH-producing"		
+dkfz_v11	"PITAD, STH SPA"	"pituitary adenoma, STH sparsely granulated"	Not applicable 	Not applicable 	"Pituitary adenoma/neuroendocrine tumor, HGH-producing"		
+dkfz_v11	"PITAD, TSH"	"pituitary adenoma, TSH"	Not applicable 	Not applicable 	"Pituitary adenoma/neuroendocrine tumor, TSH-producing"		
+dkfz_v11	PLASMA	plasmacytoma	Not applicable 	Not applicable 	Plasmacytoma		
+dkfz_v11	PXA	pleomorphic xanthoastrocytoma	Not applicable 	Not applicable 	Pleomorphic xanthoastrocytoma		
+dkfz_v11	RETB	retinoblastoma	Not applicable 	Not applicable 	Retinoblastoma		
+dkfz_v11	"LGG, RGNT"	rosette forming glioneuronal tumor	Not applicable 	Not applicable 	Rosette-forming glioneuronal tumor		
+dkfz_v11	SCHW	schwannoma	Not applicable 	Not applicable 	Schwannoma		
+dkfz_v11	SFT HMPC	solitary fibrous tumor / hemangiopericytoma	Not applicable 	Not applicable 	Solitary fibrous tumor		
+dkfz_v11	"LGG, SEGA"	subependymal giant cell astrocytoma	Not applicable 	Not applicable 	Subependymal giant cell astrocytoma		
+dkfz_v11	"SUBEPN, PF"	"subependymoma-ependymoma, posterior fossa"	Not applicable 	Not applicable 	Subependymoma-ependymoma		
+dkfz_v11	"SUBEPN, SPINE"	"subependymoma, spinal"	Not applicable 	Not applicable 	Subependymoma		
+dkfz_v11	"SUBEPN, ST"	"subependymoma, supratentorial"	Not applicable 	Not applicable 	Subependymoma		
+dkfz_v12	A_IDH_LG	"Astrocytoma, IDH-mutant; lower grade"	Not applicable 	"diffuse glioma, IDH mutant"	"Astrocytoma, IDH-mutant"		
+dkfz_v12	AG_MYB	"Angiocentric glioma, MYB/MYBL1-altered"	Not applicable 	"diffuse glioma, MYB- or MYBL1-altered"	"Angiocentric glioma, MYB/MYBL1-altered"	v11	
+dkfz_v12	LGG_MYB_B	"Diffuse astrocytoma, MYB or MYBL1-altered, subtype B [infratentorial] (novel)"	Not applicable 	"diffuse glioma, MYB- or MYBL1-altered"	"Diffuse astrocytoma, MYB/MYBL1-altered"		1
+dkfz_v12	LGG_MYB_C	"Diffuse astrocytoma, MYB or MYBL1-altered, subtype C [isomorphic] (novel)"	Not applicable 	"diffuse glioma, MYB- or MYBL1-altered"	"Diffuse astrocytoma, MYB/MYBL1-altered"		1
+dkfz_v12	LGG_MYB_D	"Diffuse astrocytoma, MYB or MYBL1-altered, subtype D (novel)"	Not applicable 	"diffuse glioma, MYB- or MYBL1-altered"	"Diffuse astrocytoma, MYB/MYBL1-altered"		1
+dkfz_v12	ANTCON	Anaplastic neuroepithelial tumor with condensed nuclei	Not applicable 	diffuse high-grade neuroepithelial tumor [adult-type]	Anaplastic neuroepithelial tumor with condensed nuclei	v11	
+dkfz_v12	HGAP	High-grade astrocytoma with piloid features	Not applicable 	high-grade astrocytoma with piloid features	High-grade astrocytoma with piloid features		
+dkfz_v12	ATRT_MYC	"Atypical teratoid rhabdoid tumor, MYC activated"	Not applicable 	Atypical teratoid rhabdoid tumor	Atypical teratoid/rhabdoid tumor		1
+dkfz_v12	ATRT_SHH	"Atypical teratoid rhabdoid tumor, SHH activated"	Not applicable 	Atypical teratoid rhabdoid tumor	Atypical teratoid/rhabdoid tumor		1
+dkfz_v12	ATRT_TYR	"Atypical teratoid rhabdoid tumor, Tyrosinase activated"	Not applicable 	Atypical teratoid rhabdoid tumor	Atypical teratoid/rhabdoid tumor		1
+dkfz_v12	CHGL	"Chordoid glioma, PRKCA-mutant"	Not applicable 	chordoid glioma	Chordoid glioma		
+dkfz_v12	CHORDM	Chordoma	Not applicable 	Notochordal tumors	Chordoma		
+dkfz_v12	CN	Central neurocytoma	Not applicable 	central neurocytoma	Central neurocytoma		
+dkfz_v12	CNS_NB_FOXR2	"CNS neuroblastoma, FOXR2-altered"	Not applicable 	"CNS neuroblastoma, FOXR2-altered"	"CNS neuroblastoma, FOXR2-activated"		
+dkfz_v12	CNS_SARC_DICER	"Primary intracranial sarcoma, DICER1-mutant"	Not applicable 	Tumors of uncertain differentiation	"Primary intracranial sarcoma, DICER1-mutant"	v11	
+dkfz_v12	CPC_PED	"Choroid plexus carcinoma, pediatric subtype"	Not applicable 	choroid plexus tumors	"Choroid plexus carcinoma, pediatric"	v11	
+dkfz_v12	CPC_AD	"Choroid plexus carcinoma, adult subtype"	Not applicable 	choroid plexus tumors	"Choroid plexus carcinoma, adult"	v11	
+dkfz_v12	CPP_AD	"Choroid plexus papilloma, adult subtype"	Not applicable 	choroid plexus tumors	"Choroid plexus papilloma, adult"	v11	
+dkfz_v12	CPP_PED	"Choroid plexus papilloma, pediatric subtype"	Not applicable 	choroid plexus tumors	"Choroid plexus papilloma, pediatric"	v11	
+dkfz_v12	CPH_ADM	Adamantinomatous craniopharyngioma	Not applicable 	craniopharyngioma	Adamantinomatous craniopharyngioma		
+dkfz_v12	CPH_PAP	Papillary craniopharyngioma	Not applicable 	craniopharyngioma	Papillary craniopharyngioma		
+dkfz_v12	DGONC	Diffuse glioneuronal tumor with oligodendroglioma-like features and nuclear clusters	Not applicable 	low-grade glioneuronal tumor	Diffuse glioneuronal tumor with oligodendroglioma-like features and nuclear clusters	v11	
+dkfz_v12	DIG_DIA	Desmoplastic infantile ganglioglioma / desmoplastic infantile astrocytoma	Not applicable 	low-grade ganglioglial/neuroepithelial tumor	Desmoplastic infantile astrocytoma/ganglioglioma		
+dkfz_v12	DLGNT_1	"Diffuse leptomeningeal glioneuronal tumor, subclass 1"	Not applicable 	diffuse glioneuronal tumors	Diffuse leptomeningeal glioneuronal tumor		
+dkfz_v12	DLGNT_2	"Diffuse leptomeningeal glioneuronal tumor, subclass 2"	Not applicable 	diffuse glioneuronal tumors	Diffuse leptomeningeal glioneuronal tumor		
+dkfz_v12	GNT_A	"Diffuse glioneuronal tumor, subtype A"	Not applicable 	diffuse glioneuronal tumors	Diffuse glioneuronal tumor	v11	
+dkfz_v12	DMG_K27	"Diffuse midline glioma, H3 K27-altered, subtype H3 K27-mutant or EZHIP expressing"	Not applicable 	"diffuse midline glioma, H3K27-altered"	"Diffuse midline glioma, H3 K27-altered"		
+dkfz_v12	DNET	Dysembryoplastic neuroepithelial tumor	Not applicable 	low-grade glioneuronal tumor	Dysembryoplastic neuroepithelial tumor		
+dkfz_v12	CNS_SARC_CIC	CIC-rearranged sarcoma	Not applicable 	Tumors of uncertain differentiation	CIC-rearranged sarcoma		
+dkfz_v12	ONB	Olfactory neuroblastoma	Not applicable 	esthesioneuroblastoma	Olfactory neuroblastoma		
+dkfz_v12	SNUC_IDH2	"Sinonasal undifferentiated carcinoma, IDH2-mutant"	Not applicable 	"Sinonasal undifferentiated carcinoma, IDH2-mutant"	"Sinonasal undifferentiated carcinoma, IDH2-mutant"	v11	
+dkfz_v12	CNS_BCOR_FUS	CNS tumor with EP300:BCOR(L1) fusion	Not applicable 	CNS BCOR-altered tumors	CNS tumor with BCOR/BCORL1 fusion	v11	
+dkfz_v12	EPN_MPE	Myxopapillary ependymoma	Not applicable 	myxopapillary ependymoma	Myxopapillary ependymoma		
+dkfz_v12	EPN_PF_SE	Posterior fossa subependymoma	Not applicable 	posterior fossa ependymoma group B & posterior fossa subependymoma	Posterior fossa subependymoma	v11	1
+dkfz_v12	EPN_SPINE	Spinal ependymoma	Not applicable 	spinal ependymoma	Spinal ependymoma		1
+dkfz_v12	EPN_SPINE_MYCN	"Spinal ependymoma, MYCN-amplified"	Not applicable 	spinal ependymoma	Spinal ependymoma	v11	1
+dkfz_v12	EPN_SPINE_SE_B	Spinal subependymoma [subtype B]	Not applicable 	spinal subependymoma	Spinal subependymoma		1
+dkfz_v12	EPN_SPINE_SE_A	Spinal subependymoma [subtype A]	Not applicable 	spinal subependymoma	Spinal subependymoma		1
+dkfz_v12	NET_PLAGL1_FUS	"Neuroepithelial tumor, PLAGL1-fused"	Not applicable 	"Neuroepithelial tumor, PLAGL1-fused"	"Neuroepithelial tumor, PLAGL1-fused"	v11	
+dkfz_v12	EPN_ST_SE	Supratentorial subependymoma	Not applicable 	supratentorial subependymoma	Supratentorial subependymoma	v11	
+dkfz_v12	EPN_YAP	"Supratentorial ependymoma, YAP1-fused"	Not applicable 	"supratentorial ependymoma, YAP1-fused"	"Supratentorial ependymoma, YAP1 fusion-positive"		
+dkfz_v12	ETMR_C19MC	"Embryonal tumor with multilayered rosettes, C19MC altered"	Not applicable 	embryonal tumor with multilayered rosettes	Embryonal tumor with multilayered rosettes		
+dkfz_v12	ETMR_Atyp	"Embryonal tumor with multilayered rosettes, atypical"	Not applicable 	embryonal tumor with multilayered rosettes	Embryonal tumor with multilayered rosettes		
+dkfz_v12	EVNCYT	Extraventricular neurocytoma	Not applicable 	low-grade glioneuronal tumor	Extraventricular neurocytoma	v11	
+dkfz_v12	EWS	Ewing sarcoma	Not applicable 	Tumors of uncertain differentiation	Ewing sarcoma		
+dkfz_v12	GBM_CBM	High-grade diffuse glioma of the midline/posterior fossa; H3/IDH-wildtype	Not applicable 	"Glioblastoma, IDH-wildtype"	"Glioblastoma, IDH-wildtype"		1
+dkfz_v12	DHG_G34	"Diffuse hemispheric glioma, H3 G34-mutant"	Not applicable 	"Diffuse pediatric-type high-grade glioma, H3-wildtype and IDH-wildtype"	"Diffuse hemispheric glioma, H3 G34-mutant"		
+dkfz_v12	A_IDH_HG	"Astrocytoma, IDH-mutant; high grade"	Not applicable 	"diffuse glioma, IDH mutant"	"Astrocytoma, IDH-mutant"		
+dkfz_v12	INFLAM_ENV	Inflammatory microenvironment	Not applicable 	Inflammatory microenvironment	Inflammatory microenvironment		
+dkfz_v12	GBM_MES_TYP	"Glioblastoma, IDH-wildtype, [typical mesenchymal type]"	Not applicable 	"Glioblastoma, IDH-wildtype"	"Glioblastoma, IDH-wildtype"		1
+dkfz_v12	GBM_MES_ATYP	"Glioblastoma, IDH-wildtype, [atypical mesenchymal type]"	Not applicable 	"Glioblastoma, IDH-wildtype"	"Glioblastoma, IDH-wildtype"		1
+dkfz_v12	pedHGG_MYCN	"Diffuse pediatric-type high grade glioma, MYCN subtype"	Not applicable 	"Diffuse pediatric-type high-grade glioma, H3-wildtype and IDH-wildtype"	"Diffuse pediatric-type high grade glioma, H3-wildtype and IDH-wildtype"		1
+dkfz_v12	pedHGG_RTK1A	"Diffuse pediatric-type high grade glioma, RTK1 subtype, subclass A (novel)"	Not applicable 	"Diffuse pediatric-type high-grade glioma, H3-wildtype and IDH-wildtype"	"Diffuse pediatric-type high grade glioma, H3-wildtype and IDH-wildtype"		1
+dkfz_v12	pedHGG_RTK1B	"Diffuse pediatric-type high grade glioma, RTK1 subtype, subclass B (novel)"	Not applicable 	"Diffuse pediatric-type high-grade glioma, H3-wildtype and IDH-wildtype"	"Diffuse pediatric-type high grade glioma, H3-wildtype and IDH-wildtype"		1
+dkfz_v12	pedHGG_RTK1C	"Diffuse pediatric-type high grade glioma, RTK1 subtype, subclass C (novel)"	Not applicable 	"Diffuse pediatric-type high-grade glioma, H3-wildtype and IDH-wildtype"	"Diffuse pediatric-type high grade glioma, H3-wildtype and IDH-wildtype"		1
+dkfz_v12	pedHGG_RTK2A	"Diffuse pediatric-type high grade glioma, RTK2 subtype, subclass A (novel)"	Not applicable 	"Diffuse pediatric-type high-grade glioma, H3-wildtype and IDH-wildtype"	"Diffuse pediatric-type high grade glioma, H3-wildtype and IDH-wildtype"		1
+dkfz_v12	pedHGG_RTK2B	"Diffuse pediatric-type high grade glioma, RTK2 subtype, subclass B (novel)"	Not applicable 	"Diffuse pediatric-type high-grade glioma, H3-wildtype and IDH-wildtype"	"Diffuse pediatric-type high grade glioma, H3-wildtype and IDH-wildtype"		1
+dkfz_v12	GBM_RTK1	"Glioblastoma, IDH-wildtype, RTK1 subtype"	Not applicable 	"Glioblastoma, IDH-wildtype"	"Glioblastoma, IDH-wildtype"		1
+dkfz_v12	GBM_RTK2	"Glioblastoma, IDH-wildtype, RTK2 subtype"	Not applicable 	"Glioblastoma, IDH-wildtype"	"Glioblastoma, IDH-wildtype"		1
+dkfz_v12	DMG_EGFR	"Diffuse midline glioma, H3 K27-altered, subtype EGFR-altered"	Not applicable 	"diffuse midline glioma, H3K27-altered"	"Diffuse midline glioma, H3 K27-altered"		
+dkfz_v12	GCT_GERM_A	"Germinoma, subtype KIT wildtype (novel)"	Not applicable 	Germ cell tumors of the CNS	"Germinoma, KIT-wildtype"		
+dkfz_v12	GCT_GERM_KIT	"Germinoma, subtype KIT mutant (novel)"	Not applicable 	Germ cell tumors of the CNS	"Germinoma, KIT-mutant"		
+dkfz_v12	GCT_TERA	Teratoma	Not applicable 	Germ cell tumors of the CNS	Teratoma		
+dkfz_v12	GCT_YOLKSAC	Yolk sac tumor	Not applicable 	Germ cell tumors of the CNS	Yolk sac tumor		
+dkfz_v12	GG	Ganglioglioma	Not applicable 	low-grade ganglioglial/neuroepithelial tumor	Ganglioglioma		
+dkfz_v12	CTRL_REACTIVE	"Control tissue, reactive tumor microenvironment"	Not applicable 	"control tissue, reactive tumor microenvironment"	"Control tissue, reactive tumor microenvironment"		
+dkfz_v12	pedHGG_A	"Diffuse pediatric-type high grade glioma, H3 wildtype and IDH wild type, Subtype A"	Not applicable 	"Diffuse pediatric-type high-grade glioma, H3-wildtype and IDH-wildtype"	"Diffuse pediatric-type high grade glioma, H3-wildtype and IDH-wildtype"		1
+dkfz_v12	pedHGG_B	"Diffuse pediatric-type high grade glioma, H3 wildtype and IDH wild type, Subtype B"	Not applicable 	"Diffuse pediatric-type high-grade glioma, H3-wildtype and IDH-wildtype"	"Diffuse pediatric-type high grade glioma, H3-wildtype and IDH-wildtype"		1
+dkfz_v12	CNS_BCOR_ITD	CNS tumor with BCOR internal tandem duplication	Not applicable 	CNS BCOR-altered tumors	CNS tumor with BCOR internal tandem duplication		
+dkfz_v12	NET_CXXC5	"Neuroepithelial tumor, MN1:CXXC5-fused"	Not applicable 	high-grade neuroepithelial tumor with MN1:CXXC5 fusion	"Astroblastoma, MN1-altered"		
+dkfz_v12	ABM_MN1	"Astroblastoma, MN1-altered, MN1:BEND2-fused"	Not applicable 	high-grade neuroepithelial tumor with MN1:BEND2 fusion	"Astroblastoma, MN1-altered"		
+dkfz_v12	GBM_PNC	"Glioblastoma, IDH-wildtype, with primitive neuronal component"	Not applicable 	"Glioblastoma, IDH-wildtype"	"Glioblastoma, IDH-wildtype"		1
+dkfz_v12	HGG_B	"Adult-type diffuse high grade glioma, IDH-wildtype, subtype B"	Not applicable 	diffuse high-grade neuroepithelial tumor [adult-type]	"Adult-type diffuse high grade glioma, IDH-wildtype"	v11	1
+dkfz_v12	HGG_E	"Adult-type diffuse high grade glioma, IDH-wildtype, subtype E"	Not applicable 	diffuse high-grade neuroepithelial tumor [adult-type]	"Adult-type diffuse high grade glioma, IDH-wildtype"	v11	1
+dkfz_v12	HGG_F	"Adult-type diffuse high grade glioma, IDH-wildtype, subtype F"	Not applicable 	diffuse high-grade neuroepithelial tumor [adult-type]	"Adult-type diffuse high grade glioma, IDH-wildtype"	v11	1
+dkfz_v12	NET_PATZ1	Neuroepithelial tumor with PATZ1 fusion	Not applicable 	neuroepithelial tumor with PATZ1 fusion	Neuroepithelial tumor with PATZ1 fusion	v11	
+dkfz_v12	ET_PLAG	CNS Embryonal tumor with PLAG-family amplification	Not applicable 	CNS Embryonal tumor with PLAG-family amplification	CNS embryonal tumor with PLAG-family amplification	v11	
+dkfz_v12	HMB	Hemangioblastoma	Not applicable 	Vascular tumors	Hemangioblastoma		
+dkfz_v12	SFT_HMPC	Solitary fibrous tumor / hemangiopericytoma	Not applicable 	Fibroblastic and myofibroblastic tumors	Solitary fibrous tumor		
+dkfz_v12	IHG	Infant-type hemispheric glioma	Not applicable 	Infant-type hemispheric glioma	Infant-type hemispheric glioma		
+dkfz_v12	IO_MEPL	Intraocular medulloepithelioma	Not applicable 	intraocular medulloepithelioma	Intraocular medulloepithelioma	v11	
+dkfz_v12	LCH	Langerhans cell histiocytosis	Not applicable 	Histiocytic tumors	Langerhans cell histiocytosis	v11	
+dkfz_v12	LIPN	Liponeurocytoma	Not applicable 	liponeurocytoma	Cerebellar liponeurocytoma		
+dkfz_v12	ET_BRD4_LEUTX	CNS embryonal tumor with BRD4:LEUTX fusion	Not applicable 	CNS embryonal tumor with BRD4:LEUTX fusion	CNS embryonal tumor with BRD4::LEUTX fusion	v11	
+dkfz_v12	MB_MYO	Medullomyoblastoma	Not applicable 	medullomyoblastoma	Medullomyoblastoma	v11	1
+dkfz_v12	MB_SHH_4	"Medulloblastoma, SHH-activated, subtype 4"	Not applicable 	"medulloblastoma, SHH-activated"	"Medulloblastoma, SHH-activated"		1
+dkfz_v12	MB_SHH_IDH	"Medulloblastoma, SHH-activated, IDH-mutant"	Not applicable 	"medulloblastoma, SHH-activated"	"Medulloblastoma, SHH-activated"		1
+dkfz_v12	MB_SHH_1	"Medulloblastoma, SHH-activated, subtype 1"	Not applicable 	"medulloblastoma, SHH-activated"	"Medulloblastoma, SHH-activated"		1
+dkfz_v12	MB_SHH_2	"Medulloblastoma, SHH-activated, subtype 2"	Not applicable 	"medulloblastoma, SHH-activated"	"Medulloblastoma, SHH-activated"		1
+dkfz_v12	MB_SHH_3	"Medulloblastoma, SHH-activated, subtype 3"	Not applicable 	"medulloblastoma, SHH-activated"	"Medulloblastoma, SHH-activated"		1
+dkfz_v12	MB_WNT	"Medulloblastoma, WNT activated"	Not applicable 	"medulloblastoma, WNT activated"	"Medulloblastoma, WNT-activated"		1
+dkfz_v12	MB_G34_I	"Medulloblastoma Group 3, subclass I"	Not applicable 	medulloblastoma non-WNT/non-SHH activated	"Medulloblastoma, non-WNT/non-SHH"		1
+dkfz_v12	MB_G34_II	"Medulloblastoma Group 3, subclass II"	Not applicable 	medulloblastoma non-WNT/non-SHH activated	"Medulloblastoma, non-WNT/non-SHH"		1
+dkfz_v12	MB_G34_III	"Medulloblastoma Group 3, subclass III"	Not applicable 	medulloblastoma non-WNT/non-SHH activated	"Medulloblastoma, non-WNT/non-SHH"		1
+dkfz_v12	MB_G34_IV	"Medulloblastoma Group 3, subclass IV"	Not applicable 	medulloblastoma non-WNT/non-SHH activated	"Medulloblastoma, non-WNT/non-SHH"		1
+dkfz_v12	MB_G34_V	"Medulloblastoma Group 4, subclass V"	Not applicable 	medulloblastoma non-WNT/non-SHH activated	"Medulloblastoma, non-WNT/non-SHH"		1
+dkfz_v12	MB_G34_VI	"Medulloblastoma Group 4, subclass VI"	Not applicable 	medulloblastoma non-WNT/non-SHH activated	"Medulloblastoma, non-WNT/non-SHH"		1
+dkfz_v12	MB_G34_VII	"Medulloblastoma Group 4, subclass VII"	Not applicable 	medulloblastoma non-WNT/non-SHH activated	"Medulloblastoma, non-WNT/non-SHH"		1
+dkfz_v12	MB_G34_VIII	"Medulloblastoma Group 4, subclass VIII"	Not applicable 	medulloblastoma non-WNT/non-SHH activated	"Medulloblastoma, non-WNT/non-SHH"		1
+dkfz_v12	MMNST	Malignant melanotic nerve sheath tumor	Not applicable 	Cranial and paraspinal nerve tumors	Malignant melanotic nerve sheath tumor	v11	
+dkfz_v12	MELN	Melanocytoma	Not applicable 	Circumscribed meningeal melanocytic neoplasms	Melanocytoma		
+dkfz_v12	MET_MEL	Melanoma [metastatic]	Not applicable 	melanocytic tumors	Melanoma		
+dkfz_v12	MNG_BEN_1	"Meningioma, subclass benign 1"	Not applicable 	meningioma	Meningioma	v11	1
+dkfz_v12	MNG_BEN_2	"Meningioma, subclass benign 2"	Not applicable 	meningioma	Meningioma	v11	1
+dkfz_v12	MNG_BEN_3	"Meningioma, subclass benign 3"	Not applicable 	meningioma	Meningioma	v11	1
+dkfz_v12	MNG_SMARCE1	"Meningioma, SMARCE1-altered"	Not applicable 	meningioma	Meningioma	v11	1
+dkfz_v12	MNG_INT_A	"Meningioma, subclass intermediate A"	Not applicable 	meningioma	Meningioma	v11	1
+dkfz_v12	MNG_INT_B	"Meningioma, subclass intermediate B"	Not applicable 	meningioma	Meningioma	v11	1
+dkfz_v12	MNG_MAL	"Meningioma, malignant"	Not applicable 	meningioma	Meningioma	v11	1
+dkfz_v12	MPNST_TYP	Malignant peripheral nerve sheath tumor [typical type]	Not applicable 	malignant peripheral nerve-sheath tumor	Malignant peripheral nerve sheath tumor	v11	1
+dkfz_v12	MPNST_ATYP	Malignant peripheral nerve sheath tumor [spinal or atypical type]	Not applicable 	malignant peripheral nerve-sheath tumor	Malignant peripheral nerve sheath tumor	v11	1
+dkfz_v12	MYXGNT	"Myxoid glioneuronal tumor, PDGFRA-mutant"	Not applicable 	low-grade glioneuronal tumor	Myxoid glioneuronal tumor	v11	
+dkfz_v12	CTRL_ADENOPIT	"Control tissue, pituitary gland (anterior lobe)"	Not applicable 	control brain tissues	"Control tissue, anterior pituitary gland"	v11	
+dkfz_v12	CTRL_CBM	"Control tissue, cerebellar hemisphere"	Not applicable 	control brain tissues	"Control tissue, cerebellar hemisphere"	v11	
+dkfz_v12	CTRL_CORPCAL	"Control tissue, white matter (corpus callosum)"	Not applicable 	control brain tissues	"Control tissue, white matter (corpus callosum)"	v11	
+dkfz_v12	CTRL_HEMI	"Control tissue, hemispheric cortex"	Not applicable 	control brain tissues	"Control tissue, hemispheric cortex"	v11	
+dkfz_v12	CTRL_HYPOTHAL	"Control tissue, hypothalamus"	Not applicable 	control brain tissues	"Control tissue, hypothalamus"	v11	
+dkfz_v12	CTRL_OPTIC	"Control tissue, optic pathway"	Not applicable 	control brain tissues	"Control tissue, optic pathway"	v11	
+dkfz_v12	CTRL_PIN	"Control tissue, pineal gland"	Not applicable 	normal pineal gland and pineocytoma	"Control tissue, pineal gland"	v11	
+dkfz_v12	CTRL_PONS	"Control tissue, pons"	Not applicable 	control brain tissues	"Control tissue, pons"	v11	
+dkfz_v12	O_IDH	"Oligodendroglioma, IDH-mutant and 1p/19q-codeleted"	Not applicable 	"diffuse glioma, IDH mutant"	"Oligodendroglioma, IDH-mutant and 1p/19q-codeleted"		
+dkfz_v12	PA_CORT	Supratentorial pilocytic astrocytoma	Not applicable 	low-grade ganglioglial/neuroepithelial tumor	Pilocytic astrocytoma		1
+dkfz_v12	PA_INF	Infratentorial pilocytic astrocytoma	Not applicable 	pilocytic astrocytoma	Pilocytic astrocytoma		1
+dkfz_v12	PA_INF_FGFR	"Infratentorial pilocytic astrocytoma, FGFR1-altered"	Not applicable 	pilocytic astrocytoma	Pilocytic astrocytoma		1
+dkfz_v12	PA_MID	Supratentorial midline pilocytic astrocytoma	Not applicable 	pilocytic astrocytoma	Pilocytic astrocytoma		1
+dkfz_v12	PB_GRP1A	"Pineoblastoma, miRNA pathway altered, group 1A"	Not applicable 	pineoblastoma	Pineoblastoma		1
+dkfz_v12	PB_GRP1B	"Pineoblastoma, miRNA pathway altered, group 1B"	Not applicable 	pineoblastoma	Pineoblastoma		1
+dkfz_v12	PB_GRP2	"Pineoblastoma, miRNA pathway altered, group 2"	Not applicable 	pineoblastoma	Pineoblastoma		1
+dkfz_v12	PB_FOXR2	"Pineoblastoma, MYC/FOXR2-activated"	Not applicable 	"pineoblastoma, MYC/FOXR2-activated"	Pineoblastoma		1
+dkfz_v12	DLBCL	Primary diffuse large B cell lymphoma of the CNS	Not applicable 	B cell neoplasm	Lymphoma		
+dkfz_v12	PLASMACYT	Plasmacytoma of the CNS	Not applicable 	B cell neoplasm	Plasmacytoma		
+dkfz_v12	EPN_PFA_1A	"Posterior fossa group A (PFA) ependymoma, subclass 1a"	Not applicable 	posterior fossa ependymoma group A	Posterior fossa group A (PFA) ependymoma		1
+dkfz_v12	EPN_PFA_1B	"Posterior fossa group A (PFA) ependymoma, subclass 1b"	Not applicable 	posterior fossa ependymoma group A	Posterior fossa group A (PFA) ependymoma		1
+dkfz_v12	EPN_PFA_1C	"Posterior fossa group A (PFA) ependymoma, subclass 1c"	Not applicable 	posterior fossa ependymoma group A	Posterior fossa group A (PFA) ependymoma		1
+dkfz_v12	EPN_PFA_1D	"Posterior fossa group A (PFA) ependymoma, subclass 1d"	Not applicable 	posterior fossa ependymoma group A	Posterior fossa group A (PFA) ependymoma		1
+dkfz_v12	EPN_PFA_1E	"Posterior fossa group A (PFA) ependymoma, subclass 1e"	Not applicable 	posterior fossa ependymoma group A	Posterior fossa group A (PFA) ependymoma		1
+dkfz_v12	EPN_PFA_1F	"Posterior fossa group A (PFA) ependymoma, subclass 1f"	Not applicable 	posterior fossa ependymoma group A	Posterior fossa group A (PFA) ependymoma		1
+dkfz_v12	EPN_PFA_2A	"Posterior fossa group A (PFA) ependymoma, subclass 2a"	Not applicable 	posterior fossa ependymoma group A	Posterior fossa group A (PFA) ependymoma		1
+dkfz_v12	EPN_PFA_2B	"Posterior fossa group A (PFA) ependymoma, subclass 2b"	Not applicable 	posterior fossa ependymoma group A	Posterior fossa group A (PFA) ependymoma		1
+dkfz_v12	EPN_PFA_2C	"Posterior fossa group A (PFA) ependymoma, subclass 2c"	Not applicable 	posterior fossa ependymoma group A	Posterior fossa group A (PFA) ependymoma		1
+dkfz_v12	EPN_PFB_1	"Posterior fossa group B (PFB) ependymoma, subclass 1"	Not applicable 	posterior fossa ependymoma group B & posterior fossa subependymoma	Posterior fossa group B (PFB) ependymoma		1
+dkfz_v12	EPN_PFB_2	"Posterior fossa group B (PFB) ependymoma, subclass 2"	Not applicable 	posterior fossa ependymoma group B & posterior fossa subependymoma	Posterior fossa group B (PFB) ependymoma		1
+dkfz_v12	EPN_PFB_3	"Posterior fossa group B (PFB) ependymoma, subclass 3"	Not applicable 	posterior fossa ependymoma group B & posterior fossa subependymoma	Posterior fossa group B (PFB) ependymoma		1
+dkfz_v12	EPN_PFB_4	"Posterior fossa group B (PFB) ependymoma, subclass 4"	Not applicable 	posterior fossa ependymoma group B & posterior fossa subependymoma	Posterior fossa group B (PFB) ependymoma		1
+dkfz_v12	EPN_PFB_5	"Posterior fossa group B (PFB) ependymoma, subclass 5"	Not applicable 	posterior fossa ependymoma group B & posterior fossa subependymoma	Posterior fossa group B (PFB) ependymoma		1
+dkfz_v12	CAUDEQU_NET	"Cauda equina neuroendocrine tumor [paraganglioma], subtype non-CIMP"	Not applicable 	Cauda equina neuroendocrine tumor [paraganglioma]	Cauda equina neuroendocrine tumor		
+dkfz_v12	PGNT	Papillary glioneuronal tumor	Not applicable 	low-grade glioneuronal tumor	Papillary glioneuronal tumor	v11	
+dkfz_v12	PIN_CYT	Pineocytoma	Not applicable 	normal pineal gland and pineocytoma	Pineocytoma	v11	
+dkfz_v12	PIN_RB	Pineal retinoblastoma	Not applicable 	pineal/retinal RB1-related tumor	Pineal retinoblastoma	v11	
+dkfz_v12	PITAD_ACTH	"Pituitary adenoma, ACTH-producing"	Not applicable 	pituitary adenoma	"Pituitary adenoma/neuroendocrine tumor, ACTH-producing"		
+dkfz_v12	PITAD_GON	"Pituitary adenoma, gonadotrophin-producing"	Not applicable 	pituitary adenoma	"Pituitary adenoma/neuroendocrine tumor, FSH/LH-producing"		
+dkfz_v12	PITAD_PRL	"Pituitary adenoma, prolactin-producing"	Not applicable 	pituitary adenoma	"Pituitary adenoma/neuroendocrine tumor, prolactin-producing"		
+dkfz_v12	PITAD_STH_DENSE1	"Pituitary adenoma, STH-producing, subclass densely granulated A"	Not applicable 	pituitary adenoma	"Pituitary adenoma/neuroendocrine tumor, HGH-producing"		
+dkfz_v12	PITAD_STH_DENSE2	"Pituitary adenoma, STH-producing, subclass densely granulated B"	Not applicable 	pituitary adenoma	"Pituitary adenoma/neuroendocrine tumor, HGH-producing"		
+dkfz_v12	PITAD_STH_SPARSE	"Pituitary adenoma, STH-producing, subclass sparsely granulated"	Not applicable 	pituitary adenoma	"Pituitary adenoma/neuroendocrine tumor, HGH-producing"		
+dkfz_v12	PITAD_TSH	"Pituitary adenoma, TSH-producing"	Not applicable 	pituitary adenoma	"Pituitary adenoma/neuroendocrine tumor, TSH-producing"		
+dkfz_v12	PITUI	"Pituicytoma, granular cell tumor of the sellar region, and spindle-cell oncocytoma"	Not applicable 	"Pituicytoma, granular cell tumor of the sellar region, and spindle-cell oncocytoma"	Pituicytoma/Granular cell tumor/Spindle cell oncocytoma		
+dkfz_v12	PLNTY	Polymorphous low-grade neuroepithelial tumor of the young	Not applicable 	low-grade ganglioglial/neuroepithelial tumor	Polymorphous low-grade neuroepithelial tumor of the young	v11	
+dkfz_v12	PPTID_A	"Pineal parenchymal tumor of intermediate differentiation, subclass A"	Not applicable 	pineal parenchymal tumor of intermediate differentiation	Pineal parenchymal tumor of intermediate differentiation	v11	1
+dkfz_v12	PPTID_B	"Pineal parenchymal tumor of intermediate differentiation, subclass B"	Not applicable 	pineal parenchymal tumor of intermediate differentiation	Pineal parenchymal tumor of intermediate differentiation	v11	1
+dkfz_v12	PTPR_A	"Papillary tumor of the pineal region, subclass A"	Not applicable 	papillary tumor of the pineal region	Papillary tumor of the pineal region		1
+dkfz_v12	PTPR_B	"Papillary tumor of the pineal region, subclass B"	Not applicable 	papillary tumor of the pineal region	Papillary tumor of the pineal region		1
+dkfz_v12	PXA	Pleomorphic xanthoastrocytoma	Not applicable 	pleomorphic xanthoastrocytoma(-like)	Pleomorphic xanthoastrocytoma		
+dkfz_v12	RB	Retinoblastoma	Not applicable 	pineal/retinal RB1-related tumor	Retinoblastoma		1
+dkfz_v12	RB_MYCN	"Retinoblastoma, MYCN-activated"	Not applicable 	"retinoblastoma, MYCN-activated"	Retinoblastoma		1
+dkfz_v12	EPN_ST_ZFTA_FUS_C	"Supratentorial ependymoma, ZFTA fusion-positive, subclass C"	Not applicable 	"supratentorial ependymoma, ZFTA fusion-positive"	"Supratentorial ependymoma, ZFTA fusion-positive"		1
+dkfz_v12	EPN_ST_ZFTA_FUS_D	"Supratentorial ependymoma, ZFTA fusion-positive, subclass D"	Not applicable 	"supratentorial ependymoma, ZFTA fusion-positive"	"Supratentorial ependymoma, ZFTA fusion-positive"		1
+dkfz_v12	EPN_ST_ZFTA_FUS_E	"Supratentorial ependymoma, ZFTA fusion-positive, subclass E"	Not applicable 	"supratentorial ependymoma, ZFTA fusion-positive"	"Supratentorial ependymoma, ZFTA fusion-positive"		1
+dkfz_v12	RGNT	Rosette-forming glioneuronal tumor	Not applicable 	low-grade glioneuronal tumor	Rosette-forming glioneuronal tumor		
+dkfz_v12	SCHW	Schwannoma	Not applicable 	schwann-cell tumors	Schwannoma		
+dkfz_v12	SEGA	Subependymal giant cell astrocytoma	Not applicable 	subependymal giant cell astrocytoma	Subependymal giant cell astrocytoma		
+dkfz_v12	EPN_ST_ZFTA_RELA_A	"Supratentorial ependymoma, ZFTA fusion-positive, subtype ZFTA-RELA fused, subclass A"	Not applicable 	"supratentorial ependymoma, ZFTA fusion-positive"	"Supratentorial ependymoma, ZFTA fusion-positive"		1
+dkfz_v12	EPN_ST_ZFTA_RELA_B	"Supratentorial ependymoma, ZFTA fusion-positive, subtype ZFTA-RELA fused, subclass B"	Not applicable 	"supratentorial ependymoma, ZFTA fusion-positive"	"Supratentorial ependymoma, ZFTA fusion-positive"		1
+dkfz_v12	CNS_SCHW_VGLL	"CNS Schwannoma, VGLL-fused"	Not applicable 	schwann-cell tumors	"CNS schwannoma, VGLL-fused"	v11	
+dkfz_v12	NB_MYCN	"Neuroblastoma, MYCN subtype"	Not applicable 	neuroblastoma	Neuroblastoma	v11	1
+dkfz_v12	NB_TMM_NEG	"Neuroblastoma, subtype TMM negative"	Not applicable 	neuroblastoma	Neuroblastoma	v11	1
+dkfz_v12	NB_TMM_POS	"Neuroblastoma, subtype ALT/TERT TMM positive"	Not applicable 	neuroblastoma	Neuroblastoma	v11	1
+dkfz_v12	CTRL_BLOOD	"Control tissue, blood"	Not applicable 	"control tissue, blood"	"Control tissue, blood"	v11	
+dkfz_v12	NFIB_PLEX	Plexiform neurofibroma	Not applicable 	Cranial and paraspinal nerve tumors	Neurofibroma	v11	
+dkfz_v12	OLIGOSARC_IDH	"Oligosarcoma, IDH-mutant"	Not applicable 	"diffuse glioma, IDH mutant"	"Oligosarcoma, IDH-mutant"	v11	
+dkfz_v12	ERMS	"Rhabdomyosarcoma, embryonal subtype"	Not applicable 	embryonal and MYOD1-mutant rhabdomyosarcoma	"Rhabdomyosarcoma, embryonal/MYOD1-mutant"	v11	1
+dkfz_v12	CRINET	Cribriform neuroepithelial tumor	Not applicable 	cribriform neuroepithelial tumor	Cribriform neuroepithelial tumor	v11	
+dkfz_v12	ARMS	"Rhabdomyosarcoma, alveolar subtype"	Not applicable 	alveolar rhabdomyosarcoma	Alveolar rhabdomyosarcoma	v11	1
+dkfz_v12	RMS_MYOD1	"Rhabdomyosarcoma, MYOD1-mutant"	Not applicable 	embryonal and MYOD1-mutant rhabdomyosarcoma	"Rhabdomyosarcoma, embryonal/MYOD1-mutant"	v11	1
+nci	CPH_ADM	Adamantinous craniopharyngioma	Not applicable 	adamantinomatous craniopharyngioma	Adamantinomatous craniopharyngioma		
+nci	HGNET_NOS2	"Adult-type diffuse high grade glioma, IDH-wildtype, subtype B "	Not applicable 	"diffuse high-grade neuroepithelial tumor, adult-type"	"Glioblastoma, IDH-wildtype"	v11	1
+nci	HGNET_NOS5	"Adult-type diffuse high grade glioma, IDH-wildtype, subtype E "	Not applicable 	"diffuse high-grade neuroepithelial tumor, adult-type"	"Glioblastoma, IDH-wildtype"	v11	1
+nci	HGNET_NOS6	"Adult-type diffuse high grade glioma, IDH-wildtype, subtype F "	Not applicable 	"diffuse high-grade neuroepithelial tumor, adult-type"	"Glioblastoma, IDH-wildtype"	v11	1
+nci	ANTCON	Anaplastic neuroepithelial tumor with condensed nuclei 	Not applicable 	diffuse glioneuronal tumors	Anaplastic neuroepithelial tumor with condensed nuclei	v11	
+nci	LGG_MYB_A	"Angiocentric glioma, MYB or MYBL1-altered"	Not applicable 	"diffuse glioma, MYB(L1)-altered"	"Angiocentric glioma, MYB/MYBL1-altered"	v11	
+nci	ABM_MN1	"Astroblastoma, MN1-altered, MN1:BEND2-fused"	Not applicable 	high-grade neuroepithelial tumor with MN1:BEND2 fusion	"Astroblastoma, MN1-altered"		
+nci	ABM_CXXC5	"Astroblastoma, MN1-altered, MN1:CXXC5-fused "	Not applicable 	high-grade neuroepithelial tumor with MN1:CXXC5 fusion	"Astroblastoma, MN1-altered"		
+nci	GBM_IDH	"Astrocytoma, IDH-mutant; high grade"	Not applicable 	"diffuse glioma, IDH mutant"	"Astrocytoma, IDH-mutant"		
+nci	A_IDH	"Astrocytoma, IDH-mutant; lower grade"	Not applicable 	"diffuse glioma, IDH mutant"	"Astrocytoma, IDH-mutant"		
+nci	MPNST-ATYP	Atypical malignant peripheral nerve sheath tumor 	Not applicable 	Not applicable	Malignant peripheral nerve sheath tumor	v11	1
+nci	ATRT_MYC	"Atypical teratoid or rhabdoid tumor, MYC-subtype"	Not applicable 	Atypical teratoid rhabdoid tumor	Atypical teratoid/rhabdoid tumor		1
+nci	ATRT_SHH	"Atypical teratoid or rhabdoid tumor, SHH-subtype"	Not applicable 	Atypical teratoid rhabdoid tumor	Atypical teratoid/rhabdoid tumor		1
+nci	ATRT_TYR	"Atypical teratoid or rhabdoid tumor, TYR-subtype"	Not applicable 	Atypical teratoid rhabdoid tumor	Atypical teratoid/rhabdoid tumor		1
+nci	PGG	"Cauda equina neuroendocrine tumor [paraganglioma], subtype non-CIMP "	Not applicable 	spinal paraganglioma	Cauda equina neuroendocrine tumor		
+nci	CN	Central neurocytoma	Not applicable 	central neurocytoma	Central neurocytoma		
+nci	LIPN	Cerebellar liponeurocytoma	Not applicable 	liponeurocytoma	Cerebellar liponeurocytoma		
+nci	CHD3V	"Chordoid glioma, PRKCA-mutant"	Not applicable 	chordoid glioma of the 3rd ventricle	Chordoid glioma		
+nci	CHORDM	Chordoma	Not applicable 	chordoma	Chordoma		
+nci	CPC_ADULT	"Choroid plexus carcinoma, adult subtype "	Not applicable 	choroid plexus tumors	"Choroid plexus carcinoma, adult"		
+nci	CPC_PED	"Choroid plexus carcinoma, pediatric subtype "	Not applicable 	choroid plexus tumors	"Choroid plexus carcinoma, pediatric"		
+nci	CPP_AD	"Choroid plexus papilloma, adult subtype "	Not applicable 	choroid plexus tumors	"Choroid plexus papilloma, adult"		
+nci	CPP_PED	"Choroid plexus papilloma, pediatric subtype "	Not applicable 	choroid plexus tumors	"Choroid plexus papilloma, pediatric"		
+nci	EFT_CIC	CIC-rearranged sarcoma	Not applicable 	Ewing family tumor with CIC alteration	CIC-rearranged sarcoma		
+nci	BRD4_LEUTX	CNS embryonal tumor with BRD4:LEUTX fusion 	Not applicable 	Not applicable	CNS embryonal tumor with BRD4::LEUTX fusion	v11	
+nci	HGNET_PLAG	CNS Embryonal tumor with PLAG-family amplification	Not applicable 	diffuse high-grade neuroepithelial tumor	CNS embryonal tumor with PLAG-family amplification	v11	
+nci	CNS_NB_FOXR2	"CNS neuroblastoma, FOXR2-activated"	Not applicable 	"CNS neuroblastoma, FOXR2-altered"	"CNS neuroblastoma, FOXR2-activated"		
+nci	VGLL	"CNS Schwannoma, VGLL-fused "	Not applicable 	"intracranial schwannoma, VGLL-altered"	"CNS schwannoma, VGLL-fused"	v11	
+nci	HGNET_BCOR	CNS tumor with BCOR internal tandem duplication	Not applicable 	CNS BCOR-altered tumors	CNS tumor with BCOR internal tandem duplication		
+nci	EP300_BCOR	CNS tumor with BCOR or BCORL1 fusion 	Not applicable 	CNS BCOR-altered tumors	CNS tumor with BCOR/BCORL1 fusion	v11	
+nci	NORM_CBM	"Control tissue, cerebellum"	Not applicable 	control brain tissues	"Control tissue, cerebellar hemisphere"	v11	
+nci	NORM_HEMI	"Control tissue, cerebral hemisphere"	Not applicable 	control brain tissues	"Control tissue, hemispheric cortex"	v11	
+nci	NORM_CORPCAL	"Control tissue, corpus callosum"	Not applicable 	control brain tissues	"Control tissue, white matter (corpus callosum)"	v11	
+nci	NORM_HYPOTHAL	"Control tissue, hypothalamus"	Not applicable 	control brain tissues	"Control tissue, hypothalamus"	v11	
+nci	NORM_OPTIC	"Control tissue, optic pathway"	Not applicable 	control brain tissues	"Control tissue, optic pathway"	v11	
+nci	NORM_PIN	"Control tissue, pineal gland"	Not applicable 	normal pineal gland and pineocytoma	"Control tissue, pineal gland"	v11	
+nci	NORM_ADENOPIT	"Control tissue, pituitary gland (anterior lobe)"	Not applicable 	"normal pituitary gland, anterior lobe"	"Control tissue, anterior pituitary gland"	v11	
+nci	NORM_PONS	"Control tissue, pons"	Not applicable 	control brain tissues	"Control tissue, pons"	v11	
+nci	GLIOMA_NORM_HI	"Control tissue, reactive tumor microenvironment"	Not applicable 	"control tissue, reactive tumor microenvironment"	"Control tissue, reactive tumor microenvironment"	v11	
+nci	CTRL_BLOOD	"Control tissue, white blood cells"	Not applicable 	"control tissue, blood"	"Control tissue, white blood cells"	v11	
+nci	CRINET	"Cribriform neuroepithelial tumor, SMARCB1-altered"	Not applicable 	cribriform neuroepithelial tumor	Cribriform neuroepithelial tumor		
+nci	DIG	Desmoplastic infantile ganglioglioma  or  desmoplastic infantile astrocytoma	Not applicable 	desmoplastic infantile ganglioglioma/astrocytoma	Desmoplastic infantile astrocytoma/ganglioglioma		
+nci	DMT_SMARCB1	"Desmoplastic myxoid tumor, SMARCB1-altered"	Not applicable 	"desmoplastic myxoid tumor, SMARCB1-altered"	"Desmoplastic myxoid tumour of the pineal region, SMARCB1-mutant"	v11	
+nci	LGG_MYB_B	"Diffuse astrocytoma, MYB or MYBL1-altered, subtype B [infratentorial] "	Not applicable 	"diffuse glioma, MYB(L1)-altered"	"Diffuse astrocytoma, MYB/MYBL1-altered"		1
+nci	LGG_MYB_C	"Diffuse astrocytoma, MYB or MYBL1-altered, subtype C [isomorphic] "	Not applicable 	"diffuse glioma, MYB(L1)-altered"	"Diffuse astrocytoma, MYB/MYBL1-altered"		1
+nci	LGG_MYB_D	"Diffuse astrocytoma, MYB or MYBL1-altered, subtype D "	Not applicable 	"diffuse glioma, MYB(L1)-altered"	"Diffuse astrocytoma, MYB/MYBL1-altered"		1
+nci	DGONC	Diffuse glioneuronal tumor with oligodendroglioma-like features and nuclear clusters (DGONC)	Not applicable 	Diffuse glioneuronal tumour with oligodendroglioma-like features and nuclear clusters	Diffuse glioneuronal tumor with oligodendroglioma-like features and nuclear clusters	v11	
+nci	GBM_G34	"Diffuse hemispheric glioma, H3 G34-mutant"	Not applicable 	"diffuse high-grade neuroepithelial tumor, pediatric-type"	"Diffuse hemispheric glioma, H3 G34-mutant"		
+nci	PCNSL_DLB	Diffuse large B-cell lymphoma of the CNS	Not applicable 	B cell neoplasm	Lymphoma		
+nci	DLGNT_1	"Diffuse leptomeningeal glioneuronal tumor, subtype 1"	Not applicable 	diffuse glioneuronal tumors	Diffuse leptomeningeal glioneuronal tumor		
+nci	DLGNT_2	"Diffuse leptomeningeal glioneuronal tumor, subtype 2"	Not applicable 	diffuse glioneuronal tumors	Diffuse leptomeningeal glioneuronal tumor		
+nci	GBM_THAL_K27	"Diffuse midline glioma, H3 K27-altered, subtype EGFR-altered"	Not applicable 	"diffuse high-grade neuroepithelial tumor, pediatric-type"	"Diffuse midline glioma, H3 K27-altered"		
+nci	DMG_K27	"Diffuse midline glioma, H3 K27-altered, subtype H3 K27-mutant or EZHIP expressing"	Not applicable 	"diffuse midline glioma, H3K27me3 lost"	"Diffuse midline glioma, H3 K27-altered"		
+nci	pedHGG_A	"Diffuse pediatric-type high grade glioma, H3 wildtype and IDH wildtype, Subtype A "	Not applicable 	"diffuse high-grade neuroepithelial tumor, pediatric-type"	"Diffuse pediatric-type high grade glioma, H3-wildtype and IDH-wildtype"		1
+nci	pedHGG_B	"Diffuse pediatric-type high grade glioma, H3 wildtype and IDH wildtype, Subtype B "	Not applicable 	"diffuse high-grade neuroepithelial tumor, pediatric-type"	"Diffuse pediatric-type high grade glioma, H3-wildtype and IDH-wildtype"		1
+nci	GBM_pedMYCN	"Diffuse pediatric-type high grade glioma, MYCN subtype"	Not applicable 	"diffuse high-grade neuroepithelial tumor, pediatric-type"	"Diffuse pediatric-type high grade glioma, H3-wildtype and IDH-wildtype"		1
+nci	GBM_pedRTK1a	"Diffuse pediatric-type high grade glioma, RTK1 subtype, subclass A "	Not applicable 	"diffuse high-grade neuroepithelial tumor, pediatric-type"	"Diffuse pediatric-type high grade glioma, H3-wildtype and IDH-wildtype"		1
+nci	GBM_pedRTK1b	"Diffuse pediatric-type high grade glioma, RTK1 subtype, subclass B "	Not applicable 	"diffuse high-grade neuroepithelial tumor, pediatric-type"	"Diffuse pediatric-type high grade glioma, H3-wildtype and IDH-wildtype"		1
+nci	GBM_pedRTK1c	"Diffuse pediatric-type high grade glioma, RTK1 subtype, subclass C "	Not applicable 	"diffuse high-grade neuroepithelial tumor, pediatric-type"	"Diffuse pediatric-type high grade glioma, H3-wildtype and IDH-wildtype"		1
+nci	GBM_pedRTK2	"Diffuse pediatric-type high grade glioma, RTK2 subtype, subclass A "	Not applicable 	"diffuse high-grade neuroepithelial tumor, pediatric-type"	"Diffuse pediatric-type high grade glioma, H3-wildtype and IDH-wildtype"		1
+nci	GBM_pedRTK2b	"Diffuse pediatric-type high grade glioma, RTK2 subtype, subclass B "	Not applicable 	"diffuse high-grade neuroepithelial tumor, pediatric-type"	"Diffuse pediatric-type high grade glioma, H3-wildtype and IDH-wildtype"		1
+nci	DNET	Dysembryoplastic neuroepithelial tumor	Not applicable 	low-grade glioneuronal tumor	Dysembryoplastic neuroepithelial tumor		
+nci	MB_G3_Like	"Embryonal tumor not otherwise specified, subtype A"	Not applicable 	"embryonal tumor, non defined, type A"	CNS embryonal tumour NEC/NOS	v11;v12	
+nci	ETMR	"Embryonal tumor with multilayered rosettes, C19MC-altered"	Not applicable 	embryonal tumor with multilayered rosettes	Embryonal tumor with multilayered rosettes		1
+nci	ETMR_Like	"Embryonal tumor with multilayered rosettes, non-C19MC-altered "	Not applicable 	embryonal tumor with multilayered rosettes	Embryonal tumor with multilayered rosettes		1
+nci	EPN_PFA-1a	"Ependymoma, posterior fossa group A (PFA), subclass 1a "	Not applicable 	posterior fossa ependymoma group A	Posterior fossa group A (PFA) ependymoma		1
+nci	EPN_PFA-1b	"Ependymoma, posterior fossa group A (PFA), subclass 1b "	Not applicable 	posterior fossa ependymoma group A	Posterior fossa group A (PFA) ependymoma		1
+nci	EPN_PFA-1c	"Ependymoma, posterior fossa group A (PFA), subclass 1c "	Not applicable 	posterior fossa ependymoma group A	Posterior fossa group A (PFA) ependymoma		1
+nci	EPN_PFA-1d	"Ependymoma, posterior fossa group A (PFA), subclass 1d "	Not applicable 	posterior fossa ependymoma group A	Posterior fossa group A (PFA) ependymoma		1
+nci	EPN_PFA-1e	"Ependymoma, posterior fossa group A (PFA), subclass 1e "	Not applicable 	posterior fossa ependymoma group A	Posterior fossa group A (PFA) ependymoma		1
+nci	EPN_PFA-1f	"Ependymoma, posterior fossa group A (PFA), subclass 1f "	Not applicable 	posterior fossa ependymoma group A	Posterior fossa group A (PFA) ependymoma		1
+nci	EPN_PFA-2a	"Ependymoma, posterior fossa group A (PFA), subclass 2a "	Not applicable 	posterior fossa ependymoma group A	Posterior fossa group A (PFA) ependymoma		1
+nci	EPN_PFA-2b	"Ependymoma, posterior fossa group A (PFA), subclass 2b "	Not applicable 	posterior fossa ependymoma group A	Posterior fossa group A (PFA) ependymoma		1
+nci	EPN_PFA-2c	"Ependymoma, posterior fossa group A (PFA), subclass 2c "	Not applicable 	posterior fossa ependymoma group A	Posterior fossa group A (PFA) ependymoma		1
+nci	EPN_PFB-1	"Ependymoma, posterior fossa group B (PFB), subclass 1 "	Not applicable 	posterior fossa ependymoma group B & posterior fossa subependymoma	Posterior fossa group B (PFB) ependymoma		1
+nci	EPN_PFB-2	"Ependymoma, posterior fossa group B (PFB), subclass 2 "	Not applicable 	posterior fossa ependymoma group B & posterior fossa subependymoma	Posterior fossa group B (PFB) ependymoma		1
+nci	EPN_PFB-3	"Ependymoma, posterior fossa group B (PFB), subclass 3 "	Not applicable 	posterior fossa ependymoma group B & posterior fossa subependymoma	Posterior fossa group B (PFB) ependymoma		1
+nci	EPN_PFB-4	"Ependymoma, posterior fossa group B (PFB), subclass 4 "	Not applicable 	posterior fossa ependymoma group B & posterior fossa subependymoma	Posterior fossa group B (PFB) ependymoma		1
+nci	EPN_PFB-5	"Ependymoma, posterior fossa group B (PFB), subclass 5 "	Not applicable 	posterior fossa ependymoma group B & posterior fossa subependymoma	Posterior fossa group B (PFB) ependymoma		1
+nci	EPN_SPINE	"Ependymoma, spinal"	Not applicable 	spinal ependymoma	Spinal ependymoma		1
+nci	EPN_SPINE_MYCN	"Ependymoma, spinal, MYCN-amplified"	Not applicable 	"spinal ependymoma, MYCN-amplified"	Spinal ependymoma	v11	1
+nci	EPN_YAP	"Ependymoma, supratentorial, YAP1 fusion-positive"	Not applicable 	"supratentorial ependymoma, YAP1-fused"	"Supratentorial ependymoma, YAP1 fusion-positive"		
+nci	EPN_ST_ZFTA_FUS_A	"Ependymoma, supratentorial, ZFTA fusion-positive, subtype ZFTA-RELA fused, subclass A"	Not applicable 	"supratentorial, ZFTA fusion related"	"Supratentorial ependymoma, ZFTA fusion-positive"		1
+nci	EPN_ST_ZFTA_FUS_B	"Ependymoma, supratentorial, ZFTA fusion-positive, subtype ZFTA-RELA fused, subclass B"	Not applicable 	"supratentorial, ZFTA fusion related"	"Supratentorial ependymoma, ZFTA fusion-positive"		1
+nci	EPN_ST_ZFTA_FUS_C	"Ependymoma, supratentorial, ZFTA fusion-positive, subtype ZFTA-RELA fused, subclass C"	Not applicable 	"supratentorial, ZFTA fusion related"	"Supratentorial ependymoma, ZFTA fusion-positive"		1
+nci	EPN_ST_ZFTA_FUS_D	"Ependymoma, supratentorial, ZFTA fusion-positive, subtype ZFTA-RELA fused, subclass D"	Not applicable 	"supratentorial, ZFTA fusion related"	"Supratentorial ependymoma, ZFTA fusion-positive"		1
+nci	EPN_ST_ZFTA_FUS_E	"Ependymoma, supratentorial, ZFTA fusion-positive, subtype ZFTA-RELA fused, subclass E"	Not applicable 	"supratentorial, ZFTA fusion related"	"Supratentorial ependymoma, ZFTA fusion-positive"		1
+nci	ENB_IDH	"Esthesioneuroblastoma, IDH-mutant"	Not applicable 	"Sinonasal undifferentiated carcinoma, IDH2-mutant"	"Sinonasal undifferentiated carcinoma, IDH2-mutant"	v11	
+nci	EWS	Ewing sarcoma	Not applicable 	Ewing sarcoma	Ewing sarcoma		
+nci	EVNCYT	Extraventricular neurocytoma	Not applicable 	extraventricular neurocytoma	Extraventricular neurocytoma	v11	
+nci	GG	Ganglioglioma	Not applicable 	low-grade ganglioglial/neuroepithelial tumor	Ganglioglioma		
+nci	GCT_GERM_KIT	"Germinoma, subtype KIT mutant "	Not applicable 	germ cell tumor	"Germinoma, KIT-mutant"	v11	
+nci	GCT_GERM	"Germinoma, subtype KIT wildtype "	Not applicable 	germ cell tumor	"Germinoma, KIT-wildtype"	v11	
+nci	HGNET_NOS1	"Glioblastoma, IDH-wildtype with primitive neuronal component "	Not applicable 	"diffuse high-grade neuroepithelial tumor, adult-type"	"Glioblastoma, IDH-wildtype"		1
+nci	GBM_MES	"Glioblastoma, IDH-wildtype, mesenchymal subtype"	Not applicable 	"diffuse high-grade neuroepithelial tumor, adult-type"	"Glioblastoma, IDH-wildtype"		1
+nci	GBM_MES_TYP	"Glioblastoma, IDH-wildtype, mesenchymal subtype"	Not applicable 	"diffuse high-grade neuroepithelial tumor, adult-type"	"Glioblastoma, IDH-wildtype"		1
+nci	GBM_MES_ATYP	"Glioblastoma, IDH-wildtype, mesenchymal subtype, subclass B "	Not applicable 	"diffuse high-grade neuroepithelial tumor, adult-type"	"Glioblastoma, IDH-wildtype"		1
+nci	GBM_RTK1	"Glioblastoma, IDH-wildtype, RTK1 subtype"	Not applicable 	"diffuse high-grade neuroepithelial tumor, adult-type"	"Glioblastoma, IDH-wildtype"		1
+nci	GBM_RTK2	"Glioblastoma, IDH-wildtype, RTK2 subtype"	Not applicable 	"diffuse high-grade neuroepithelial tumor, adult-type"	"Glioblastoma, IDH-wildtype"		1
+nci	GBM_RTK_I	"Glioblastoma, IDH-wildtype, RTK1 subtype"	Not applicable 	"diffuse high-grade neuroepithelial tumor, adult-type"	"Glioblastoma, IDH-wildtype"		1
+nci	GBM_RTK_II	"Glioblastoma, IDH-wildtype, RTK2 subtype"	Not applicable 	"diffuse high-grade neuroepithelial tumor, adult-type"	"Glioblastoma, IDH-wildtype"		1
+nci	GBM_CBM	"Glioblastoma, IDH-wildtype, subtype posterior fossa "	Not applicable 	"diffuse high-grade neuroepithelial tumor, adult-type"	"Glioblastoma, IDH-wildtype"		1
+nci	GNT_NOS	"Glioneuronal tumor, subtype A "	Not applicable 	diffuse glioneuronal tumors	"Glioneuronal tumor, NOS"	v11;v12	
+nci	HMB	Hemangioblastoma	Not applicable 	haemangioblastoma	Hemangioblastoma		
+nci	AAP	High-grade astrocytoma with piloid features	Not applicable 	high-grade astrocytoma with piloid features	High-grade astrocytoma with piloid features		
+nci	IHG	Infant-type hemispheric glioma	Not applicable 	infantile hemispheric glioma	Infant-type hemispheric glioma		
+nci	GBM_LYMPH_HI	Inflammatory microevironment	Not applicable 	"control tissue, inflammatory tumor microenvironment"	Inflammatory microenvironment	v11	
+nci	IO_MEPL	Intraocular medulloepithelioma	Not applicable 	intraocular medulloepithelioma	Intraocular medulloepithelioma	v11	
+nci	LCH	Langerhans cell histiocytosis	Not applicable 	Langerhans cell histiocytosis	Langerhans cell histiocytosis	v11	
+nci	MEL_SCHW	Malignant melanotic nerve sheath tumor	Not applicable 	schwann-cell tumors	Malignant melanotic nerve sheath tumor	v11	
+nci	MPNST	Malignant peripheral nerve sheath tumor	Not applicable 	malignant peripheral nerve-sheath tumor	Malignant peripheral nerve sheath tumor	v11	1
+nci	MB_G34_I	"Medulloblastoma, non-WNT or non-SHH, Group 3 subtype, subclass I"	Not applicable 	medulloblastoma non-WNT/non-SHH activated	"Medulloblastoma, non-WNT/non-SHH"		1
+nci	MB_G34_II	"Medulloblastoma, non-WNT or non-SHH, Group 3 subtype, subclass II"	Not applicable 	medulloblastoma non-WNT/non-SHH activated	"Medulloblastoma, non-WNT/non-SHH"		1
+nci	MB_G34_III	"Medulloblastoma, non-WNT or non-SHH, Group 3 subtype, subclass III"	Not applicable 	medulloblastoma non-WNT/non-SHH activated	"Medulloblastoma, non-WNT/non-SHH"		1
+nci	MB_G34_IV	"Medulloblastoma, non-WNT or non-SHH, Group 3 subtype, subclass IV"	Not applicable 	medulloblastoma non-WNT/non-SHH activated	"Medulloblastoma, non-WNT/non-SHH"		1
+nci	MB_G34_V	"Medulloblastoma, non-WNT or non-SHH, Group 4 subtype, subclass V"	Not applicable 	medulloblastoma non-WNT/non-SHH activated	"Medulloblastoma, non-WNT/non-SHH"		1
+nci	MB_G34_VI	"Medulloblastoma, non-WNT or non-SHH, Group 4 subtype, subclass VI"	Not applicable 	medulloblastoma non-WNT/non-SHH activated	"Medulloblastoma, non-WNT/non-SHH"		1
+nci	MB_G34_VII	"Medulloblastoma, non-WNT or non-SHH, Group 4 subtype, subclass VII"	Not applicable 	medulloblastoma non-WNT/non-SHH activated	"Medulloblastoma, non-WNT/non-SHH"		1
+nci	MB_G34_VIII	"Medulloblastoma, non-WNT or non-SHH, Group 4 subtype, subclass VIII"	Not applicable 	medulloblastoma non-WNT/non-SHH activated	"Medulloblastoma, non-WNT/non-SHH"		1
+nci	MBg34_I	"Medulloblastoma, non-WNT or non-SHH, Group 3 subtype, subclass I"	Not applicable 	medulloblastoma non-WNT/non-SHH activated	"Medulloblastoma, non-WNT/non-SHH"		1
+nci	MBg34_II	"Medulloblastoma, non-WNT or non-SHH, Group 3 subtype, subclass II"	Not applicable 	medulloblastoma non-WNT/non-SHH activated	"Medulloblastoma, non-WNT/non-SHH"		1
+nci	MBg34_III	"Medulloblastoma, non-WNT or non-SHH, Group 3 subtype, subclass III"	Not applicable 	medulloblastoma non-WNT/non-SHH activated	"Medulloblastoma, non-WNT/non-SHH"		1
+nci	MBg34_IV	"Medulloblastoma, non-WNT or non-SHH, Group 3 subtype, subclass IV"	Not applicable 	medulloblastoma non-WNT/non-SHH activated	"Medulloblastoma, non-WNT/non-SHH"		1
+nci	MBg34_V	"Medulloblastoma, non-WNT or non-SHH, Group 4 subtype, subclass V"	Not applicable 	medulloblastoma non-WNT/non-SHH activated	"Medulloblastoma, non-WNT/non-SHH"		1
+nci	MBg34_VI	"Medulloblastoma, non-WNT or non-SHH, Group 4 subtype, subclass VI"	Not applicable 	medulloblastoma non-WNT/non-SHH activated	"Medulloblastoma, non-WNT/non-SHH"		1
+nci	MBg34_VII	"Medulloblastoma, non-WNT or non-SHH, Group 4 subtype, subclass VII"	Not applicable 	medulloblastoma non-WNT/non-SHH activated	"Medulloblastoma, non-WNT/non-SHH"		1
+nci	MBg34_VIII	"Medulloblastoma, non-WNT or non-SHH, Group 4 subtype, subclass VIII"	Not applicable 	medulloblastoma non-WNT/non-SHH activated	"Medulloblastoma, non-WNT/non-SHH"		1
+nci	MB_SHH_IDH	"Medulloblastoma, SHH-activated, IDH-mutant "	Not applicable 	"medulloblastoma, SHH-activated"	"Medulloblastoma, SHH-activated"		1
+nci	MB_SHH_1	"Medulloblastoma, SHH-activated, subclass 1 "	Not applicable 	"medulloblastoma, SHH-activated"	"Medulloblastoma, SHH-activated"		1
+nci	MB_SHH_2	"Medulloblastoma, SHH-activated, subclass 2 "	Not applicable 	"medulloblastoma, SHH-activated"	"Medulloblastoma, SHH-activated"		1
+nci	MB_SHH_3	"Medulloblastoma, SHH-activated, subclass 3 "	Not applicable 	"medulloblastoma, SHH-activated"	"Medulloblastoma, SHH-activated"		1
+nci	MB_SHH_4	"Medulloblastoma, SHH-activated, subclass 4 "	Not applicable 	"medulloblastoma, SHH-activated"	"Medulloblastoma, SHH-activated"		1
+nci	MB_WNT	"Medulloblastoma, WNT-activated"	Not applicable 	"medulloblastoma, WNT activated"	"Medulloblastoma, WNT-activated"		1
+nci	MB_MYO	Medullomyoblastoma	Not applicable 	medullomyoblastoma	Medullomyoblastoma	v11	1
+nci	MELN	Melanocytoma	Not applicable 	melanocytic tumors	Melanocytoma		
+nci	MET_MEL	Melanoma metastasis	Not applicable 	melanocytic tumors	Melanoma		
+nci	MNG_CC	"Meningioma, clear cell subtype, SMARCE1-altered "	Not applicable 	meningioma	Meningioma		1
+nci	MNG_BEN_1	"Meningioma, subtype benign, subclass 1 "	Not applicable 	meningioma	Meningioma		1
+nci	MNG_BEN_2	"Meningioma, subtype benign, subclass 2 "	Not applicable 	meningioma	Meningioma		1
+nci	MNG_BEN_3	"Meningioma, subtype benign, subclass 3 "	Not applicable 	meningioma	Meningioma		1
+nci	MNG_ben-1	"Meningioma, subtype benign, subclass 1 "	Not applicable 	meningioma	Meningioma		1
+nci	MNG_ben-2	"Meningioma, subtype benign, subclass 2 "	Not applicable 	meningioma	Meningioma		1
+nci	MNG_ben-3	"Meningioma, subtype benign, subclass 3 "	Not applicable 	meningioma	Meningioma		1
+nci	MNG_int-A	"Meningioma, subtype intermediate, subclass A "	Not applicable 	meningioma	Meningioma		1
+nci	MNG_int-B	"Meningioma, subtype intermediate, subclass B "	Not applicable 	meningioma	Meningioma		1
+nci	MNG_mal	"Meningioma, subtype malignant "	Not applicable 	meningioma	Meningioma		1
+nci	MYXGNT	"Myxoid glioneuronal tumor, PDGFRA mutant "	Not applicable 	low-grade glioneuronal tumor	Myxoid glioneuronal tumor	v11	
+nci	EPN_MPE	Myxopapillary ependymoma	Not applicable 	myxopapillary ependymoma	Myxopapillary ependymoma		
+nci	NB_2wo2s	"neuroblastoma, ALT or TERT TMM positive"	Not applicable 	neuroblastoma	Neuroblastoma	v11	1
+nci	NB_1	"Neuroblastoma, MYCN type"	Not applicable 	neuroblastoma	Neuroblastoma	v11	1
+nci	NB_2s	"neuroblastoma, TMM negative"	Not applicable 	neuroblastoma	Neuroblastoma	v11	1
+nci	HGNET_PATZ	Neuroepithelial tumor with PATZ1 fusion 	Not applicable 	neuroepithelial tumor with PATZ1 fusion	Neuroepithelial tumor with PATZ1 fusion	v11	
+nci	PLAG-FUS	"Neuroepithelial tumor, PLAGL1-fused "	Not applicable 	Not applicable	"Neuroepithelial tumor, PLAGL1-fused"	v11	
+nci	ENB	"Olfactory neuroblastoma, IDH-wildtype"	Not applicable 	esthesioneuroblastoma	Olfactory neuroblastoma		
+nci	O_IDH	"Oligodendroglioma, IDH-mutant and 1p or 19q-codeleted"	Not applicable 	"diffuse glioma, IDH mutant"	"Oligodendroglioma, IDH-mutant and 1p/19q-codeleted"		
+nci	OLIGOSARC_IDH	"Oligosarcoma, IDH-mutant "	Not applicable 	"diffuse glioma, IDH mutant"	"Oligosarcoma, IDH-mutant"	v11	
+nci	CPH_PAP	Papillary craniopharyngioma	Not applicable 	papillary craniopharyngioma	Papillary craniopharyngioma		
+nci	PGNT	Papillary glioneuronal tumor; PRKCA-fused	Not applicable 	low-grade glioneuronal tumor	Papillary glioneuronal tumor	v11	
+nci	PTPR_A	"Papillary tumor of the pineal region, subtype A"	Not applicable 	papillary tumor of the pineal region	Papillary tumor of the pineal region		1
+nci	PTPR_B	"Papillary tumor of the pineal region, subtype B"	Not applicable 	papillary tumor of the pineal region	Papillary tumor of the pineal region		1
+nci	PA_CORT	"Pilocytic astrocytoma, hemsipheric"	Not applicable 	pilocytic astrocytoma	Pilocytic astrocytoma		1
+nci	PA_INF	"Pilocytic astrocytoma, infratentorial"	Not applicable 	pilocytic astrocytoma	Pilocytic astrocytoma		1
+nci	PA_INF_FGFR	"Pilocytic astrocytoma, infratentorial, subclass FGFR1-altered "	Not applicable 	pilocytic astrocytoma	Pilocytic astrocytoma		1
+nci	PA_MID	"Pilocytic astrocytoma, midline"	Not applicable 	pilocytic astrocytoma	Pilocytic astrocytoma		1
+nci	PPTID_A	"Pineal parenchymal tumor of intermediate differentiation, KBTBD4-altered, subtype A "	Not applicable 	pineal parenchymal tumor of intermediate differentiation	Pineal parenchymal tumor of intermediate differentiation	v11	1
+nci	PPTID_B	"Pineal parenchymal tumor of intermediate differentiation, KBTBD4-altered, subtype B "	Not applicable 	pineal parenchymal tumor of intermediate differentiation	Pineal parenchymal tumor of intermediate differentiation	v11	1
+nci	PB_MYC	"Pineoblastoma, MYC or FOXR2-activated"	Not applicable 	"pineoblastoma, MYC/FOXR2-activated"	Pineoblastoma		1
+nci	PB_Grp1A	"Pineoblastoma, subtype miRNA processing altered 1, subclass A "	Not applicable 	pineoblastoma	Pineoblastoma		1
+nci	PB_Grp1B	"Pineoblastoma, subtype miRNA processing altered 1, subclass B "	Not applicable 	pineoblastoma	Pineoblastoma		1
+nci	PB_Grp2	"Pineoblastoma, subtype miRNA processing altered 2"	Not applicable 	pineoblastoma	Pineoblastoma		1
+nci	Pin_RB	"Pineoblastoma, subtype RB1-altered (pineal retinoblastoma)"	Not applicable 	pineal/retinal RB1-related tumor	Pineal retinoblastoma	v11	
+nci	Pin_Cyt	Pineocytoma	Not applicable 	normal pineal gland and pineocytoma	Pineocytoma	v11	
+nci	PITUI	"Pituicytoma, granular cell tumor of the sellar region, and spindle-cell oncocytoma"	Not applicable 	pituicytoma	Pituicytoma/Granular cell tumor/Spindle cell oncocytoma		
+nci	PITAD_ACTH	"Pituitary adenoma, subtype ACTH-producing "	Not applicable 	pituitary adenoma	"Pituitary adenoma/neuroendocrine tumor, ACTH-producing"		
+nci	PITAD_GON	"Pituitary adenoma, subtype gonadotrophin-producing "	Not applicable 	pituitary adenoma	"Pituitary adenoma/neuroendocrine tumor, FSH/LH-producing"		
+nci	PITAD_PRL	"Pituitary adenoma, subtype prolactin-producing "	Not applicable 	pituitary adenoma	"Pituitary adenoma/neuroendocrine tumor, prolactin-producing"		
+nci	PITAD_STH_DENSE1	"Pituitary adenoma, subtype STH-producing, subclass densely granulated A "	Not applicable 	pituitary adenoma	"Pituitary adenoma/neuroendocrine tumor, HGH-producing"		
+nci	PITAD_STH_DENSE2	"Pituitary adenoma, subtype STH-producing, subclass densely granulated B "	Not applicable 	pituitary adenoma	"Pituitary adenoma/neuroendocrine tumor, HGH-producing"		
+nci	PITAD_STH_SPARSE	"Pituitary adenoma, subtype STH-producing, subclass sparsely granulated "	Not applicable 	pituitary adenoma	"Pituitary adenoma/neuroendocrine tumor, HGH-producing"		
+nci	PITAD_TSH	"Pituitary adenoma, subtype TSH-producing "	Not applicable 	pituitary adenoma	"Pituitary adenoma/neuroendocrine tumor, TSH-producing"		
+nci	PCNSL_PLAS	Plasmacytoma of the CNS	Not applicable 	B cell neoplasm	Plasmacytoma		
+nci	PXA	Pleomorphic xanthoastrocytoma	Not applicable 	pleomorphic xanthoastrocytoma(-like)	Pleomorphic xanthoastrocytoma		
+nci	NFIB_PLEX	Plexiform neurofibroma	Not applicable 	schwann-cell tumors	Neurofibroma	v11	
+nci	PLNTY	Polymorphous low-grade neuroepithelial tumor of the young	Not applicable 	low-grade ganglioglial/neuroepithelial tumor	Polymorphous low-grade neuroepithelial tumor of the young	v11	
+nci	CNS_SCS_DICER	"Primary intracranial sarcoma, DICER1-mutant"	Not applicable 	CNS DICER1-associated sarcoma	"Primary intracranial sarcoma, DICER1-mutant"	v11	
+nci	PMMRDIA	Primary mismatch repair deficient IDH-mutant astrocytoma	Not applicable 	"diffuse glioma, IDH mutant"	Primary mismatch repair deficient IDH-mutant astrocytoma	v11;v12	
+nci	RB	Retinoblastoma	Not applicable 	pineal/retinal RB1-related tumor	Retinoblastoma		1
+nci	RB_MYCN	"Retinoblastoma, subtype MYCN-altered "	Not applicable 	"retinoblastoma, MYCN-activated"	Retinoblastoma		1
+nci	RNS-ALV	"Rhabdomyosarcoma, alveolar subtype"	Not applicable 	Not applicable	Alveolar rhabdomyosarcoma	v11	
+nci	eRMS	"Rhabdomyosarcoma, embryonal subtype"	Not applicable 	embryonal rhabdomyosarcoma	"Rhabdomyosarcoma, embryonal/MYOD1-mutant"	v11	1
+nci	RMS-MyoD1	"Rhabdomyosarcoma, MYOD1-mutant"	Not applicable 	Not applicable	"Rhabdomyosarcoma, embryonal/MYOD1-mutant"	v11	1
+nci	RGNT	Rosette forming glioneuronal tumor	Not applicable 	low-grade glioneuronal tumor	Rosette-forming glioneuronal tumor		
+nci	MPNST_Spine	"Sarcoma, MPNST-like"	Not applicable 	malignant peripheral nerve-sheath tumor	Malignant peripheral nerve sheath tumor	v11	1
+nci	SCHW	Schwannoma	Not applicable 	schwann-cell tumors	Schwannoma		
+nci	SNUC-IDH	"Sinonasal undifferentiated carcinoma, IDH2-mutant"	Not applicable 	Not applicable	"Sinonasal undifferentiated carcinoma, IDH2-mutant"		
+nci	HMPC_SFT	Solitary fibrous tumor	Not applicable 	solitary fibrous tumor / haemangiopericytoma	Solitary fibrous tumor		
+nci	SEGA	"Subependymal giant cell astrocytoma, TSC1 or TSC2-altered"	Not applicable 	subependymal giant cell astrocytoma	Subependymal giant cell astrocytoma		
+nci	EPN_PF_SE	"Subependymoma, posterior fossa"	Not applicable 	posterior fossa ependymoma group B & posterior fossa subependymoma	Posterior fossa subependymoma	v11	1
+nci	EPN_SPINE_SE	"Subependymoma, spinal, subtype A "	Not applicable 	spinal subependymoma	Spinal subependymoma		1
+nci	EPN_SPINE_NOS	"Subependymoma, spinal, subtype B "	Not applicable 	spinal subependymoma	Spinal subependymoma		1
+nci	EPN_ST_SE	"Subependymoma, supratentorial"	Not applicable 	supratentorial subependymoma	Subependymoma		1
+nci	EPN_ST_1	"Supratentorial ependymoma, subtype A"	Not applicable 	"supratentorial ependymoma, non-defined type"	Supratentorial ependymoma		1
+nci	GCT_TERA	Teratoma 	Not applicable 	germ cell tumor	Teratoma		
+nci	GCT_YOLKSAC	Yolk sac tumor 	Not applicable 	germ cell tumor	Yolk sac tumor		
+nci	HPAP	High grade glioma with pleomorphic and pseudopapillary feature	Not applicable 	Not applicable	High-grade glioma with pleomorphic and pseudopapillary features	v11;v12	
+nci	ICMT_A	ICMT_A	Not applicable 	Not applicable	"Intracranial mesenchymal tumor, FET::CREB fusion-positive"	v11;v12	1
+nci	ICMT_B	ICMT_B	Not applicable 	Not applicable	"Intracranial mesenchymal tumor, FET::CREB fusion-positive"	v11;v12	1
+nci	ICMT_C	ICMT_C	Not applicable 	Not applicable	"Intracranial mesenchymal tumor, FET::CREB fusion-positive"	v11;v12	1
+nci	FCD	FCD	Not applicable 	Not applicable	Focal cortical dysplasia	v11;v12	
+nci	ET_BRD4_LEUTX	Other CNS embryonal tumors	Not applicable 	Not applicable	CNS embryonal tumour NEC/NOS	v11;v12	
+nci	AB_EWSR1_BEND2	Astroblastoma	Not applicable 	Not applicable	"Astroblastoma, MN1-altered"		
+nci	CENET	CENET	Not applicable 	Not applicable	Cauda equina neuroendocrine tumor		
+nci	ENDOLST	ENDOLST	Not applicable 	Not applicable	Endolymphatic sac tumor	v11;v12	
+nci	EPEN-SUBEPN_PF	Ependymal tumors	Not applicable 	Not applicable	Posterior fossa subependymoma-ependymoma		
+nci	EPEN-SUBEPN_SPINE	Ependymal tumors	Not applicable 	Not applicable	Spinal subependymoma-ependymoma		
+nci	EPEN-SUBEPN_ST	Ependymal tumors	Not applicable 	Not applicable	Supratentorial subependymoma-ependymoma		
+nci	EPN_RELA_ATYP	Ependymal tumors	Not applicable 	Not applicable	"Supratentorial ependymoma, ZFTA fusion-positive"		1
+nci	MYB	MYB-altered	Not applicable 	Not applicable	"Diffuse astrocytoma, MYB/MYBL1-altered"		
+nci	PITAD_FSH_LH	Pituitary adenoma	Not applicable 	Not applicable	"Pituitary adenoma/neuroendocrine tumor, FSH/LH-producing"		
+nci	PA_PF	Pilocytic astrocytoma	Not applicable 	Not applicable	Pilocytic astrocytoma		1
+nci	PA_GG_ST	Pilocytic astrocytoma	Not applicable 	Not applicable	Pilocytic astrocytoma		1
+nci	EPN_RELA	Ependymal tumors	Not applicable 	Not applicable	"Supratentorial ependymoma, ZFTA fusion-positive"		1
+nci	EPN_PF_B	Ependymal tumors	Not applicable 	Not applicable	Posterior fossa group B (PFB) ependymoma		1
+nci	EPN_PF_A	Ependymal tumors	Not applicable 	Not applicable	Posterior fossa group A (PFA) ependymoma		1
+nci	DLGNT	Diffuse glioneuronal tumors	Not applicable 	Not applicable	Diffuse leptomeningeal glioneuronal tumor		
+nci	MELCYT	MELCYT	Not applicable 	Not applicable	Melanocytoma		
+nci	PITAD_STH_SPA	Pituitary adenoma	Not applicable 	Not applicable	"Pituitary adenoma/neuroendocrine tumor, HGH-producing"		
+nci	PIN_CYT	Pineal parenchymal and retinal tumors	Not applicable 	Not applicable	Pineocytoma	v11	
+nci	ETMR_DICER	Embryonal tumour with multilayered rosettes	Not applicable 	Not applicable	Embryonal tumour with multilayered rosettes		1
+nci	CPC_AD	Choroid plexus tumors	Not applicable 	Not applicable	Choroid plexus carcinoma		
+nci	SFT_HMPC	"Mesenchymal, non-meningothelial tumors involving the CNS"	Not applicable 	Not applicable	Solitary fibrous tumor		
+nci	ERMS	ERMS	Not applicable 	Not applicable	"Rhabdomyosarcoma, embryonal/MYOD1-mutant"		1
+nci	ARMS	ARMS	Not applicable 	Not applicable	Alveolar rhabdomyosarcoma		
+nci	DLBCL	DLBCL	Not applicable 	Not applicable	Lymphoma		
+nci	PLASMACYT	PLASMACYT	Not applicable 	Not applicable	Plasmacytoma		
+nci	PB_FOXR2	Pineal parenchymal and retinal tumors	Not applicable 	Not applicable	Pineoblastoma		1
+nci	PB_GRP1B	Pineal parenchymal and retinal tumors	Not applicable 	Not applicable	Pineoblastoma		1
+nci	PB_GRP2	Pineal parenchymal and retinal tumors	Not applicable 	Not applicable	Pineoblastoma		1
+nci	PB_GRP1A	Pineal parenchymal and retinal tumors	Not applicable 	Not applicable	Pineoblastoma		1
+nci	PIN_RB	Pineal parenchymal and retinal tumors	Not applicable 	Not applicable	Pineal retinoblastoma	v11	
+nci	O_SARC_IDH	IDH-glioma	Not applicable 	Not applicable	"Oligosarcoma, IDH-mutant"	v11	
+nci	PLAGL1_FUS	PLAGL1_FUS	Not applicable 	Not applicable	"Neuroepithelial tumor, PLAGL1-fused"	v11	
+nci	PATZ1	PATZ1	Not applicable 	Not applicable	Neuroepithelial tumor with PATZ1 fusion	v11	
+nci	ASTROBL_CXXC5	Astroblastoma	Not applicable 	Not applicable	"Astroblastoma, MN1-altered"		
+nci	NB_MYCN	NB_MYCN	Not applicable 	Not applicable	Neuroblastoma	v11	
+nci	MNG_SMARCE1	Meningioma	Not applicable 	Not applicable	Meningioma	v11	1
+nci	MNG_MAL	Meningioma	Not applicable 	Not applicable	Meningioma	v11	1
+nci	MNG_INT_A	Meningioma	Not applicable 	Not applicable	Meningioma	v11	1
+nci	MNG_INT_B	Meningioma	Not applicable 	Not applicable	Meningioma	v11	1
+nci	MELAN	MELAN	Not applicable 	Not applicable	Melanoma		
+nci	CONTR_INFLAM	CONTR_INFLAM	Not applicable 	Not applicable	Inflammatory microenvironment		
+nci	HGAP	"Diffuse glioma, MAPK altered, cell-cycle activated"	Not applicable 	Not applicable	High-grade astrocytoma with piloid features		
+nci	GNT_A	Diffuse glioneuronal tumors	Not applicable 	Not applicable	"Glioneuronal tumor, NOS"	v11	
+nci	GBM_PNC	"Glioblastoma, IDH-wildtype"	Not applicable 	Not applicable	"Glioblastoma, IDH-wildtype"		1
+nci	DNT_group	Low-grade glioneuronal tumour	Not applicable 	Not applicable	Dysembryoplastic neuroepithelial tumor		
+nci	pedHGG_RTK2	"Diffuse pediatric-type high-grade glioma, H3-wildtype and IDH-wildtype"	Not applicable 	Not applicable	"Diffuse pediatric-type high grade glioma, H3-wildtype and IDH-wildtype"		1
+nci	pedHGG_RTK1	"Diffuse pediatric-type high-grade glioma, H3-wildtype and IDH-wildtype"	Not applicable 	Not applicable	"Diffuse pediatric-type high grade glioma, H3-wildtype and IDH-wildtype"		1
+nci	pedHGG_MYCN	"Diffuse pediatric-type high-grade glioma, H3-wildtype and IDH-wildtype"	Not applicable 	Not applicable	"Diffuse pediatric-type high grade glioma, H3-wildtype and IDH-wildtype"		1
+nci	DMG_EGFR	"Diffuse midline glioma, H3K27-altered"	Not applicable 	Not applicable	"Diffuse midline glioma, H3 K27-altered"		
+nci	DHG_G34	"Diffuse pediatric-type high-grade glioma, H3-wildtype and IDH-wildtype"	Not applicable 	Not applicable	"Diffuse hemispheric glioma, H3 G34-mutant"		
+nci	DIG_DIA	Low-grade ganglioglial or neuroepithelial tumour	Not applicable 	Not applicable	Desmoplastic infantile astrocytoma/ganglioglioma		
+nci	CONTR_CORPCAL	CONTR_CORPCAL	Not applicable 	Not applicable	"Control tissue, white matter (corpus callosum)"	v11	
+nci	CONTR_WM	CONTR_WM	Not applicable 	Not applicable	"Control tissue, white matter (corpus callosum)"	v11	
+nci	CONTR_REACT	CONTR_REACT	Not applicable 	Not applicable	"Control tissue, reactive tumor microenvironment"	v11	
+nci	CONTR_ADENOPIT	CONTR_ADENOPIT	Not applicable 	Not applicable	"Control tissue, anterior pituitary gland"	v11	
+nci	CONTR_PINEAL	CONTR_PINEAL	Not applicable 	Not applicable	"Control tissue, pineal gland"	v11	
+nci	CONTR_HEMI	CONTR_HEMI	Not applicable 	Not applicable	"Control tissue, hemispheric cortex"	v11	
+nci	CONTR_CEBM	CONTR_CEBM	Not applicable 	Not applicable	"Control tissue, cerebellar hemisphere"	v11	
+nci	BCOR_ITD	BCOR-altered	Not applicable 	Not applicable	CNS tumor with BCOR internal tandem duplication		
+nci	CNS_SCHW_VGLL	Schwann-cell tumors	Not applicable 	Not applicable	"CNS schwannoma, VGLL-fused"	v11	
+nci	NB_FOXR2	Other CNS embryonal tumors	Not applicable 	Not applicable	"CNS neuroblastoma, FOXR2-activated"		
+nci	ET_PLAG	Other CNS embryonal tumors	Not applicable 	Not applicable	CNS embryonal tumor with PLAG-family amplification	v11	
+nci	A_IDH_HG	IDH-glioma	Not applicable 	Not applicable	"Astrocytoma, IDH-mutant"		
+nci	ASTROBL_MN1	Astroblastoma	Not applicable 	Not applicable	"Astroblastoma, MN1-altered"		
+nci	AG_MYB	MYB-altered	Not applicable 	Not applicable	"Angiocentric glioma, MYB/MYBL1-altered"	v11	
+nci	HGG_F	Diffuse high-grade neuroepithelial tumour [adult-type]	Not applicable 	Not applicable	"Adult-type diffuse high grade glioma, IDH-wildtype"	v11	1
+nci	HGG_E	Diffuse high-grade neuroepithelial tumour [adult-type]	Not applicable 	Not applicable	"Adult-type diffuse high grade glioma, IDH-wildtype"	v11	1
+nci	HGG_B	Diffuse high-grade neuroepithelial tumour [adult-type]	Not applicable 	Not applicable	"Adult-type diffuse high grade glioma, IDH-wildtype"	v11	1
+nci	CHGL	CHGL	Not applicable 	Not applicable	Chordoid glioma		
+nci	EPN_ACVR1	Ependymal tumors	Not applicable 	Not applicable	Supratentorial ependymoma	v11;v12	
+nci	GBM_F3T3_O	"Glioblastoma, FGFR3-TACC3-O"	Not applicable 	Not applicable	"Glioblastoma, IDH-wildtype"		1

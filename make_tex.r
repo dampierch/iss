@@ -74,6 +74,7 @@ make_diagnosis <- function(l, threshold=0.85) {
                 write(x, file=f)
             }
         } else {
+            ## DECISION TREE
             if (grepl("_", x)) {
                 if (grepl("_", y)) {
                     cat(unlist(strsplit(x, "_")), sep="\\_", file=f)

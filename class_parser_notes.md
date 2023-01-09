@@ -18,46 +18,46 @@ expand.grid(c("H", "M", "L"), c("H", "M", "L"), c("H", "M", "L"))
 ```
 
 ### First set of combinations
-- L L L :: inconclusive :: __INC__ module
-        "DNA methylation-based classification is inconclusive"
+- L L L :: inconclusive :: __INC__ module  
+        "DNA methylation-based classification is inconclusive"  
         "results from (all) are non-contributory"
-- L L M :: suggestive by nci :: __SUG by 1__ module
-        "there is no consensus methylation match but ...
-        "... result from (highest) is suggestive of X"
+- L L M :: suggestive by nci :: __SUG by 1__ module  
+        "there is no consensus methylation match but ..."  
+        "... result from (highest) is suggestive of X"  
         "results from (lower 2) are non-contributory"
-- L L H :: match by nci :: __MAT by 1__ module
-        "there is no consensus methylation match but ...
-        "... result from (highest) is a high-confidence match to X"
+- L L H :: match by nci :: __MAT by 1__ module  
+        "there is no consensus methylation match but ..."  
+        "... result from (highest) is a high-confidence match to X"  
         "results from (lower 2) are non-contributory"
 - L M L :: suggestive by v12 :: __SUG by 1__ module
-- L M M :: suggestive by v12 and nci :: __SUG by 2__ module
-        :: must test whether same
-        "there is no consensus methylation match but ..."
-        if same then "... results from (highest 2) are suggestive of X"
-        if different, then sort by score
-        "... result from (higher) is suggestive of X while ..."
-        "... result from (lower) is suggestive of Y"
+- L M M :: suggestive by v12 and nci :: __SUG by 2__ module  
+        :: must test whether same  
+        "there is no consensus methylation match but ..."  
+        if same then "... results from (highest 2) are suggestive of X"  
+        if different, then sort by score  
+        "... result from (higher) is suggestive of X while ..."  
+        "... result from (lower) is suggestive of Y"  
         "result from (lowest) is non-contributory"
-- L M H :: suggestive by v12 and match by nci :: __MAT by 1 SUG by 1__ module
-        :: must test whether same
-        "there is no consensus methylation match but ..."
-        if same, then
-        "... result from (higher) is a high-confidence match to X ..."
-        "... with suggestive support from (lower)"
-        if different, then
-        "... result from (higher) is a high-confidence match to X while ..."
-        "... result from (lower) is suggestive of Y"
+- L M H :: suggestive by v12 and match by nci :: __MAT by 1 SUG by 1__ module  
+        :: must test whether same  
+        "there is no consensus methylation match but ..."  
+        if same, then  
+        "... result from (higher) is a high-confidence match to X ..."  
+        "... with suggestive support from (lower)"  
+        if different, then  
+        "... result from (higher) is a high-confidence match to X while ..."  
+        "... result from (lower) is suggestive of Y"  
         "result from (lowest) is non-contributory"
 - L H L :: match by v12 :: __MAT by 1__ module
 - L H M :: match by v12 and suggestive by nci :: __MAT by 1 SUG by 1__ module
-- L H H :: match by v12 and nci :: __MAT by 2__ module
-        :: must test whether same
-        "there is no consensus methylation match but ..."
-        if same, then
-        "... results from (highest 2) are high-confidence matches to X"
-        if different, then
-        "... result from (higher) is a high-confidence match to X while ..."
-        "... result from (lower) is a high-confidence match to Y"
+- L H H :: match by v12 and nci :: __MAT by 2__ module  
+        :: must test whether same  
+        "there is no consensus methylation match but ..."  
+        if same, then  
+        "... results from (highest 2) are high-confidence matches to X"  
+        if different, then  
+        "... result from (higher) is a high-confidence match to X while ..."  
+        "... result from (lower) is a high-confidence match to Y"  
         "result from (lowest) is non-contributory"
 
 ### Second set of combinations
@@ -125,13 +125,15 @@ expand.grid(c("H", "M", "L"), c("H", "M", "L"), c("H", "M", "L"))
 - H H M :: __MAT by 2 SUG by 1__ module
 - H H H :: __MAT by 3__ module
         :: test whether same
-        "there is no consensus methylation match but ..."
         if 3 are same, then
+        "there is a consensus methylation match to X."
         "... results from (all) are high-confidence matches to X"
         if 2 are same, then
+        "there is no consensus methylation match but ..."
         "... results from (2 same) are high-confidence matches to X while ..."
         "... result from (other) is high-confidence match to Y"
         if 3 are different, then
+        "there is no consensus methylation match but ..."
         "... result from (highest) is high-confidence match to X, ..."
         "... result from (next highest) is high-confidence match to Y, ..."
         "... and result from (lowest) is high-confidence match to Z"

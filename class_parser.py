@@ -85,64 +85,67 @@ def parse_classes(d, t1=0.50, t2=0.85):
                 l.append('M')
         else:
             l.append('L')
+    ## set results and scores dicts
+    res = {'DKFZ v11': d['v11_res'], 'DKFZ v12': d['v12_res'], 'NCI': d['nci_res']}
+    scr = {'DKFZ v11': d['v11_scr'], 'DKFZ v12': d['v12_scr'], 'NCI': d['nci_scr']}
     ## choose module to parse results
     ## first set of combinations
     if l == ['L', 'L', 'L']:
-        inconclusive_mod(d)
+        inconclusive_mod(d, res, scr)
     elif l == ['L', 'L', 'M']:
-        suggestive_by_1_mod(d)
+        suggestive_by_1_mod(d, res, scr)
     elif l == ['L', 'L', 'H']:
-        match_by_1_mod(d)
+        match_by_1_mod(d, res, scr)
     elif l == ['L', 'M', 'L']:
-        suggestive_by_1_mod(d)
+        suggestive_by_1_mod(d, res, scr)
     elif l == ['L', 'M', 'M']:
-        suggestive_by_2_mod(d)
+        suggestive_by_2_mod(d, res, scr)
     elif l == ['L', 'M', 'H']:
-        match_by_1_sug_by_1_mod(d)
+        match_by_1_sug_by_1_mod(d, res, scr)
     elif l == ['L', 'H', 'L']:
-        match_by_1_mod(d)
+        match_by_1_mod(d, res, scr)
     elif l == ['L', 'H', 'M']:
-        match_by_1_sug_by_1_mod(d)
+        match_by_1_sug_by_1_mod(d, res, scr)
     elif l == ['L', 'H', 'H']:
-        match_by_2_mod(d)
+        match_by_2_mod(d, res, scr)
     ## second set of combinations
     elif l == ['M', 'L', 'L']:
-        suggestive_by_1_mod(d)
+        suggestive_by_1_mod(d, res, scr)
     elif l == ['M', 'L', 'M']:
-        suggestive_by_2_mod(d)
+        suggestive_by_2_mod(d, res, scr)
     elif l == ['M', 'L', 'H']:
-        match_by_1_sug_by_1_mod(d)
+        match_by_1_sug_by_1_mod(d, res, scr)
     elif l == ['M', 'M', 'L']:
-        suggestive_by_2_mod(d)
+        suggestive_by_2_mod(d, res, scr)
     elif l == ['M', 'M', 'M']:
-        suggestive_by_3_mod(d)
+        suggestive_by_3_mod(d, res, scr)
     elif l == ['M', 'M', 'H']:
-        match_by_1_sug_by_2_mod(d)
+        match_by_1_sug_by_2_mod(d, res, scr)
     elif l == ['M', 'H', 'L']:
-        match_by_1_sug_by_1_mod(d)
+        match_by_1_sug_by_1_mod(d, res, scr)
     elif l == ['M', 'H', 'M']:
-        match_by_1_sug_by_2_mod(d)
+        match_by_1_sug_by_2_mod(d, res, scr)
     elif l == ['M', 'H', 'H']:
-        match_by_2_sug_by_1_mod(d)
+        match_by_2_sug_by_1_mod(d, res, scr)
     ## third set of combinations
     elif l == ['H', 'L', 'L']:
-        match_by_1_mod(d)
+        match_by_1_mod(d, res, scr)
     elif l == ['H', 'L', 'M']:
-        match_by_1_sug_by_1_mod(d)
+        match_by_1_sug_by_1_mod(d, res, scr)
     elif l == ['H', 'L', 'H']:
-        match_by_2_mod(d)
+        match_by_2_mod(d, res, scr)
     elif l == ['H', 'M', 'L']:
-        match_by_1_sug_by_1_mod(d)
+        match_by_1_sug_by_1_mod(d, res, scr)
     elif l == ['H', 'M', 'M']:
-        match_by_1_sug_by_2_mod(d)
+        match_by_1_sug_by_2_mod(d, res, scr)
     elif l == ['H', 'M', 'H']:
-        match_by_2_sug_by_1_mod(d)
+        match_by_2_sug_by_1_mod(d, res, scr)
     elif l == ['H', 'H', 'L']:
-        match_by_2_mod(d)
+        match_by_2_mod(d, res, scr)
     elif l == ['H', 'H', 'M']:
-        match_by_2_sug_by_1_mod(d)
+        match_by_2_sug_by_1_mod(d, res, scr)
     elif l == ['H', 'H', 'H']:
-        match_by_3_mod(d)
+        match_by_3_mod(d, res, scr)
     else:
         print('parsing problem')
 

@@ -65,53 +65,53 @@ expand.grid(c("H", "M", "L"), c("H", "M", "L"), c("H", "M", "L"))
 - M L M :: suggestive by v11 and nci :: __SUG by 2__ module
 - M L H :: suggestive by v11 and match by nci :: __MAT by 1 SUG by 1__ module
 - M M L :: suggestive by v11 and v12 :: __SUG by 2__ module
-- M M M :: suggestive by v11, v12, and nci :: __SUG by 3__ module
-        :: test whether same
-        "there is no consensus methylation match but ..."
-        if 3 are same, then
-        "... results from (all) are suggestive of X"
-        if 2 are same, then
-        "... results from (2 same) are suggestive of X while ..."
-        "... result from (other) is suggestive of Y"
-        if 3 are different, then
-        "... result from (highest) is suggestive of X, ..."
-        "... result from (next highest) is suggestive of Y, ..."
+- M M M :: suggestive by v11, v12, and nci :: __SUG by 3__ module  
+        :: test whether same  
+        "there is no consensus methylation match but ..."  
+        if 3 are same, then  
+        "... results from (all) are suggestive of X"  
+        if 2 are same, then  
+        "... results from (2 same) are suggestive of X while ..."  
+        "... result from (other) is suggestive of Y"  
+        if 3 are different, then  
+        "... result from (highest) is suggestive of X, ..."  
+        "... result from (next highest) is suggestive of Y, ..."  
         "... and result from (lowest) is suggestive of Z"
-- M M H :: suggestive by v11 and v12 and match by nci :: __MAT by 1 SUG by 2__
-        :: test whether same
-        "there is no consensus methylation match but ..."
-        if 3 are same, then
-        "... result from (highest) is a high-confidence match to X with ..."
-        "... suggestive support from (lower 2)."
-        if 1 highest same as 1 other, then
-        "... result from (highest) is a high-confidence match to X ..."
-        "...with suggestive support from (1 same) while ..."
-        "... result from (1 different) is suggestive of Y"
-        if 1 highest different from other 2 but other 2 are same, then
-        "... result from (highest) is a high-confidence match to X ..."
-        "... while results from (lower 2) are suggestive of Y"
-        if 3 are different, then
-        "... result from (highest) is a high-confidence match to X ..."
-        "... while result from (higher of other 2) is suggestive of Y and ..."
+- M M H :: suggestive by v11 and v12 and match by nci :: __MAT by 1 SUG by 2__  
+        :: test whether same  
+        "there is no consensus methylation match but ..."  
+        if 3 are same, then  
+        "... result from (highest) is a high-confidence match to X with ..."  
+        "... suggestive support from (lower 2)."  
+        if 1 highest same as 1 other, then  
+        "... result from (highest) is a high-confidence match to X ..."  
+        "...with suggestive support from (1 same) while ..."  
+        "... result from (1 different) is suggestive of Y"  
+        if 1 highest different from other 2 but other 2 are same, then  
+        "... result from (highest) is a high-confidence match to X ..."  
+        "... while results from (lower 2) are suggestive of Y"  
+        if 3 are different, then  
+        "... result from (highest) is a high-confidence match to X ..."  
+        "... while result from (higher of other 2) is suggestive of Y and ..."  
         "... result from (lower of other 2) is suggestive of Z"
 - M H L :: suggestive by v11 and match by v12 :: __MAT by 1 SUG by 1__ module
 - M H M :: suggestive by v11 and nci and match by v12 :: __MAT by 1 SUG by 2__
-- M H H :: suggestive by v11 and match by v12 and nci :: __MAT by 2 SUG by 1__
-        :: test whether same
-        "there is no consensus methylation match but ..."
-        if 3 are same, then
-        "... results from (highest 2) are high-confidence matches to X with ..."
-        "... suggestive support from (lowest 1)."
-        if 2 highest are same but 1 lowest is different, then
-        "... results from (highest 2) are high-confidence matches to X while ..."
-        "... result from (lowest 1) is suggestive of Y"
-        if 1 lowest same as 1 of higher, then
-        "... result from (higher same as lowest) is a high-confidence match to X"
-        "... with suggestive support from (lowest same as higher) while ..."
-        "... (other higher) is a high-confidence match to Y"
-        if 3 are different, then
-        "... result from (highest) is a high-confidence match to X ..."
-        "... while result from (next highest) is a high-confidence match to Y"
+- M H H :: suggestive by v11 and match by v12 and nci :: __MAT by 2 SUG by 1__  
+        :: test whether same  
+        "there is no consensus methylation match but ..."  
+        if 3 are same, then  
+        "... results from (highest 2) are high-confidence matches to X with ..."  
+        "... suggestive support from (lowest 1)."  
+        if 2 highest are same but 1 lowest is different, then  
+        "... results from (highest 2) are high-confidence matches to X while ..."  
+        "... result from (lowest 1) is suggestive of Y"  
+        if 1 lowest same as 1 of higher, then  
+        "... result from (higher same as lowest) is a high-confidence match to X"  
+        "... with suggestive support from (lowest same as higher) while ..."  
+        "... (other higher) is a high-confidence match to Y"  
+        if 3 are different, then  
+        "... result from (highest) is a high-confidence match to X ..."  
+        "... while result from (next highest) is a high-confidence match to Y"  
         "... and result from (lowest) is suggestive of Z"
 
 ### Third set of combinations
@@ -123,19 +123,19 @@ expand.grid(c("H", "M", "L"), c("H", "M", "L"), c("H", "M", "L"))
 - H M H :: __MAT by 2 SUG by 1__ module
 - H H L :: __MAT by 2__ module
 - H H M :: __MAT by 2 SUG by 1__ module
-- H H H :: __MAT by 3__ module
-        :: test whether same
-        if 3 are same, then
-        "there is a consensus methylation match to X."
-        "... results from (all) are high-confidence matches to X"
-        if 2 are same, then
-        "there is no consensus methylation match but ..."
-        "... results from (2 same) are high-confidence matches to X while ..."
-        "... result from (other) is high-confidence match to Y"
-        if 3 are different, then
-        "there is no consensus methylation match but ..."
-        "... result from (highest) is high-confidence match to X, ..."
-        "... result from (next highest) is high-confidence match to Y, ..."
+- H H H :: __MAT by 3__ module  
+        :: test whether same  
+        if 3 are same, then  
+        "there is a consensus methylation match to X."  
+        "... results from (all) are high-confidence matches to X"  
+        if 2 are same, then  
+        "there is no consensus methylation match but ..."  
+        "... results from (2 same) are high-confidence matches to X while ..."  
+        "... result from (other) is high-confidence match to Y"  
+        if 3 are different, then  
+        "there is no consensus methylation match but ..."  
+        "... result from (highest) is high-confidence match to X, ..."  
+        "... result from (next highest) is high-confidence match to Y, ..."  
         "... and result from (lowest) is high-confidence match to Z"
 
 ## Modules required for parsing results

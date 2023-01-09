@@ -9,6 +9,9 @@ def inconclusive_mod(d, r, s):
     s1 = 'DNA methylation-based tumor classification is inconclusive.'
     s2 = 'Results from all three classifiers are non-contributory.'
     print(''.join([s1, s2]))
+    cc = 'See note.'
+    note = ''.join([s1, s2])
+    return cc, note
 
 
 def suggestive_by_1_mod(d, r, s):
@@ -20,6 +23,9 @@ def suggestive_by_1_mod(d, r, s):
     s2 = 'the result from {} is suggestive of {}. '.format(h1, hX)
     s3 = 'Results from the other classifiers are non-contributory.'
     print(''.join([s1, s2, s3]))
+    cc = 'See note.'
+    note = ''.join([s1, s2, s3])
+    return cc, note
 
 
 def match_by_1_mod(d, r, s):
@@ -31,6 +37,9 @@ def match_by_1_mod(d, r, s):
     s2 = 'the result from {} is a high-confidence match to {}. '.format(h1, hX)
     s3 = 'Results from the other classifiers are non-contributory.'
     print(''.join([s1, s2, s3]))
+    cc = 'See note.'
+    note = ''.join([s1, s2, s3])
+    return cc, note
 
 
 def suggestive_by_2_mod(d, r, s):
@@ -48,6 +57,9 @@ def suggestive_by_2_mod(d, r, s):
     s1 = 'There is no consensus methylation class match, but '
     s3 = 'The result from {} is non-contributory.'.format(h3)
     print(''.join([s1, s2, s3]))
+    cc = 'See note.'
+    note = ''.join([s1, s2, s3])
+    return cc, note
 
 
 def match_by_1_sug_by_1_mod(d, r, s):
@@ -65,6 +77,9 @@ def match_by_1_sug_by_1_mod(d, r, s):
     s1 = 'There is no consensus methylation class match, but '
     s3 = 'The result from {} is non-contributory.'.format(h3)
     print(''.join([s1, s2, s3]))
+    cc = 'See note.'
+    note = ''.join([s1, s2, s3])
+    return cc, note
 
 
 def match_by_2_mod(d, r, s):
@@ -82,6 +97,9 @@ def match_by_2_mod(d, r, s):
     s1 = 'There is no consensus methylation class match, but '
     s3 = 'The result from {} is non-contributory.'.format(h3)
     print(''.join([s1, s2, s3]))
+    cc = 'See note.'
+    note = ''.join([s1, s2, s3])
+    return cc, note
 
 
 def suggestive_by_3_mod(d, r, s):
@@ -115,6 +133,9 @@ def suggestive_by_3_mod(d, r, s):
         s2 = ''.join([s2a, s2b, s2c])
     s1 = 'There is no consensus methylation class match, but '
     print(''.join([s1, s2]))
+    cc = 'See note.'
+    note = ''.join([s1, s2])
+    return cc, note
 
 
 def match_by_1_sug_by_2_mod(d, r, s):
@@ -152,6 +173,9 @@ def match_by_1_sug_by_2_mod(d, r, s):
         s2 = ''.join([s2a, s2b, s2c])
     s1 = 'There is no consensus methylation class match, but '
     print(''.join([s1, s2]))
+    cc = 'See note.'
+    note = ''.join([s1, s2])
+    return cc, note
 
 
 def match_by_2_sug_by_1_mod(d, r, s):
@@ -189,6 +213,9 @@ def match_by_2_sug_by_1_mod(d, r, s):
         s2 = ''.join([s2a, s2b, s2c])
     s1 = 'There is no consensus methylation class match, but '
     print(''.join([s1, s2]))
+    cc = 'See note.'
+    note = ''.join([s1, s2])
+    return cc, note
 
 
 def match_by_3_mod(d, r, s):
@@ -204,28 +231,35 @@ def match_by_3_mod(d, r, s):
         if h1X == h3X:
             s1 = 'There is a consensus methylation class match to {}.'.format(h1X)
             s2 = 'Results from all classifiers are high-confidence matches to {}'.format(h1X)
+            cc = h1X
         else:
             s1 = 'There is no consensus methylation class match, but '
             s2a = 'results from {} and {} are high-confidence matches to {} while '.format(h1, h2, h1X)
             s2b = 'the result from {} is a high-confidence match to {}.'.format(h3, h3X)
             s2 = ''.join([s2a, s2b])
+            cc = 'See note.'
     elif h1X == h3X:
         s1 = 'There is no consensus methylation class match, but '
         s2a = 'results from {} and {} are high-confidence matches to {} while '.format(h1, h3, h1X)
         s2b = 'the result from {} is a high-confidence match to {}.'.format(h2, h2X)
         s2 = ''.join([s2a, s2b])
+        cc = 'See note.'
     elif h2X == h3X:
         s1 = 'There is no consensus methylation class match, but '
         s2a = 'results from {} and {} are high-confidence matches to {} while '.format(h2, h3, h2X)
         s2b = 'the result from {} is a high-confidence match to {}.'.format(h1, h1X)
         s2 = ''.join([s2a, s2b])
+        cc = 'See note.'
     else:
         s1 = 'There is no consensus methylation class match. '
         s2a = 'The result from {} is a high-confidence match to {}, '.format(h1, h1X)
         s2b = 'the result from {} is a high-confidence match to {}, and '.format(h2, h2X)
         s2c = 'the result from {} is a high-confidence match to {}.'.format(h3, h3X)
         s2 = ''.join([s2a, s2b, s2c])
+        cc = 'See note.'
     print(''.join([s1, s2]))
+    note = ''.join([s1, s2])
+    return cc, note
 
 
 if __name__ == '__main__':

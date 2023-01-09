@@ -35,21 +35,36 @@ run_r() {
     Rscript make_tex.r --args ${nci_fields} ${dkfz_fields}
 }
 
+run_py() {
+    printf "running python...\n"
+    module load python/3.7
+    python class_parser.py    
+}
+
 make_tex() {
     printf "making latex document...\n"
-    tname=iss_consult_report
-    sid=$(<tmp/sample.tex)
-    rname=${sid}_${tname}
     module load tex
-    pdflatex ${tname}
-    pdflatex ${tname} && mv ${tname}.pdf ${rname}.pdf
+    tname=iss_consult_report
+    l=`find ${TMP} -mindepth 1 -maxdepth 1 -type d`
+    for i in ${l}
+    do
+        mv ${i}/*.tex ${TMP}
+        sid=$(<${TMP}sample.tex)
+        rname=${sid}_${tname}
+        pdflatex ${tname}
+        pdflatex ${tname} && mv ${tname}.pdf ${rname}.pdf
+        if [ -f ${rname}.pdf ]
+        then
+            printf "%s.pdf exists!\nremoving intermediate files...\n" "${rname}"
+            for e in aux bcf log out run.xml
+            do
+                rm ${tname}.${e}
+            done
+            rm ${TMP}*.tex
+        fi
+    done
     if [ -f ${rname}.pdf ]
     then
-        printf "%s.pdf exists!\nremoving intermediate files...\n" "${rname}"
-        for e in aux bcf log out run.xml
-        do
-            rm ${tname}.${e}
-        done
         printf "cleaning up input...\n"
         rm -r ${TMP}
     else
@@ -58,5 +73,5 @@ make_tex() {
 }
 
 prepare_input
-run_r
+run_py
 make_tex

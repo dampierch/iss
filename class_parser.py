@@ -1,5 +1,5 @@
 from csv import DictReader
-from os import environ
+from os import environ, mkdir
 from glob import glob
 
 
@@ -91,63 +91,97 @@ def parse_classes(d, t1=0.50, t2=0.85):
     ## choose module to parse results
     ## first set of combinations
     if l == ['L', 'L', 'L']:
-        inconclusive_mod(d, res, scr)
+        cc, note = inconclusive_mod(d, res, scr)
     elif l == ['L', 'L', 'M']:
-        suggestive_by_1_mod(d, res, scr)
+        cc, note = suggestive_by_1_mod(d, res, scr)
     elif l == ['L', 'L', 'H']:
-        match_by_1_mod(d, res, scr)
+        cc, note = match_by_1_mod(d, res, scr)
     elif l == ['L', 'M', 'L']:
-        suggestive_by_1_mod(d, res, scr)
+        cc, note = suggestive_by_1_mod(d, res, scr)
     elif l == ['L', 'M', 'M']:
-        suggestive_by_2_mod(d, res, scr)
+        cc, note = suggestive_by_2_mod(d, res, scr)
     elif l == ['L', 'M', 'H']:
-        match_by_1_sug_by_1_mod(d, res, scr)
+        cc, note = match_by_1_sug_by_1_mod(d, res, scr)
     elif l == ['L', 'H', 'L']:
-        match_by_1_mod(d, res, scr)
+        cc, note = match_by_1_mod(d, res, scr)
     elif l == ['L', 'H', 'M']:
-        match_by_1_sug_by_1_mod(d, res, scr)
+        cc, note = match_by_1_sug_by_1_mod(d, res, scr)
     elif l == ['L', 'H', 'H']:
-        match_by_2_mod(d, res, scr)
+        cc, note = match_by_2_mod(d, res, scr)
     ## second set of combinations
     elif l == ['M', 'L', 'L']:
-        suggestive_by_1_mod(d, res, scr)
+        cc, note = suggestive_by_1_mod(d, res, scr)
     elif l == ['M', 'L', 'M']:
-        suggestive_by_2_mod(d, res, scr)
+        cc, note = suggestive_by_2_mod(d, res, scr)
     elif l == ['M', 'L', 'H']:
-        match_by_1_sug_by_1_mod(d, res, scr)
+        cc, note = match_by_1_sug_by_1_mod(d, res, scr)
     elif l == ['M', 'M', 'L']:
-        suggestive_by_2_mod(d, res, scr)
+        cc, note = suggestive_by_2_mod(d, res, scr)
     elif l == ['M', 'M', 'M']:
-        suggestive_by_3_mod(d, res, scr)
+        cc, note = suggestive_by_3_mod(d, res, scr)
     elif l == ['M', 'M', 'H']:
-        match_by_1_sug_by_2_mod(d, res, scr)
+        cc, note = match_by_1_sug_by_2_mod(d, res, scr)
     elif l == ['M', 'H', 'L']:
-        match_by_1_sug_by_1_mod(d, res, scr)
+        cc, note = match_by_1_sug_by_1_mod(d, res, scr)
     elif l == ['M', 'H', 'M']:
-        match_by_1_sug_by_2_mod(d, res, scr)
+        cc, note = match_by_1_sug_by_2_mod(d, res, scr)
     elif l == ['M', 'H', 'H']:
-        match_by_2_sug_by_1_mod(d, res, scr)
+        cc, note = match_by_2_sug_by_1_mod(d, res, scr)
     ## third set of combinations
     elif l == ['H', 'L', 'L']:
-        match_by_1_mod(d, res, scr)
+        cc, note = match_by_1_mod(d, res, scr)
     elif l == ['H', 'L', 'M']:
-        match_by_1_sug_by_1_mod(d, res, scr)
+        cc, note = match_by_1_sug_by_1_mod(d, res, scr)
     elif l == ['H', 'L', 'H']:
-        match_by_2_mod(d, res, scr)
+        cc, note = match_by_2_mod(d, res, scr)
     elif l == ['H', 'M', 'L']:
-        match_by_1_sug_by_1_mod(d, res, scr)
+        cc, note = match_by_1_sug_by_1_mod(d, res, scr)
     elif l == ['H', 'M', 'M']:
-        match_by_1_sug_by_2_mod(d, res, scr)
+        cc, note = match_by_1_sug_by_2_mod(d, res, scr)
     elif l == ['H', 'M', 'H']:
-        match_by_2_sug_by_1_mod(d, res, scr)
+        cc, note = match_by_2_sug_by_1_mod(d, res, scr)
     elif l == ['H', 'H', 'L']:
-        match_by_2_mod(d, res, scr)
+        cc, note = match_by_2_mod(d, res, scr)
     elif l == ['H', 'H', 'M']:
-        match_by_2_sug_by_1_mod(d, res, scr)
+        cc, note = match_by_2_sug_by_1_mod(d, res, scr)
     elif l == ['H', 'H', 'H']:
-        match_by_3_mod(d, res, scr)
+        cc, note = match_by_3_mod(d, res, scr)
     else:
         print('parsing problem')
+    return cc, note
+
+
+def write_values(k, d):
+    ## make sub-dir within tmp to store values for each sample
+    pn = ''.join([environ['TMP'], k, '/'])
+    mkdir(pn)
+    ## write all values to sub-dir
+    fn = ''.join([pn, 'sample.tex'])
+    with open(fn, 'w') as outfile:
+        outfile.write(d['Sample'])
+    ##
+    fn = ''.join([pn, 'id.tex'])
+    with open(fn, 'w') as outfile:
+        outfile.write(d['ID'].replace('_', '\\_'))
+    ##
+    l = ['v11_res', 'v12_res', 'nci_res', 'v11_scr', 'v12_scr', 'nci_scr']
+    for i in l:
+        fn = ''.join([pn, i, '.tex'])
+        with open(fn, 'w') as outfile:
+            outfile.write(d[i])
+
+
+def write_classes(k, cc, note):
+    ## write classes to previously created sub-dir for sample
+    pn = ''.join([environ['TMP'], k, '/'])
+    ##
+    fn = ''.join([pn, 'cc.tex'])
+    with open(fn, 'w') as outfile:
+        outfile.write(cc)
+    ##
+    fn = ''.join([pn, 'parsed_classes.tex'])
+    with open(fn, 'w') as outfile:
+        outfile.write(note)
 
 
 def main():
@@ -158,7 +192,9 @@ def main():
     ## parse the inputs
     for k in data.keys():
         d = set_values(data[k], std_res, fam_dict)
-        parse_classes(d)
+        cc, note = parse_classes(d)
+        write_values(k, d)
+        write_classes(k, cc, note)
 
 
 if __name__ == '__main__':

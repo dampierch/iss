@@ -1,6 +1,9 @@
 ## script to keep track of which classes should be evaluated at family level
 
 
+modname = 'parser_families'
+
+
 dkfz_v11_fam = [
     'ATRT',
     'ENB',
@@ -73,3 +76,9 @@ def make_families_dict():
         'nci_fam': nci_fam
     }
     return d
+
+
+if __name__ == '__main__':
+    print('no main function for', modname)
+else:
+    print('functions loaded for', modname)

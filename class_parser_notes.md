@@ -5,7 +5,7 @@
 - C1) Consider which results have most support (in terms of scores and classes)
 
 ## Score types
-- 0.00-0.50 is LOW (L) and is discounted
+- 0.00-0.50 is LOW (L) and is inconclusive
 - 0.50-0.85 is MEDIUM (M) and is suggestive
 - 0.85-1.00 is HIGH (H) and is matching
 
@@ -19,16 +19,15 @@ expand.grid(c("H", "M", "L"), c("H", "M", "L"), c("H", "M", "L"))
 
 ### First set of combinations
 - L L L :: inconclusive :: __INC__ module  
-        "DNA methylation-based classification is inconclusive"  
-        "results from (all) are non-contributory"
+        "DNA methylation-based classification is inconclusive"
 - L L M :: suggestive by nci :: __SUG by 1__ module  
         "there is no consensus methylation match but ..."  
         "... result from (highest) is suggestive of X"  
-        "results from (lower 2) are non-contributory"
+        "results from (lower 2) are inconclusive"
 - L L H :: match by nci :: __MAT by 1__ module  
         "there is no consensus methylation match but ..."  
         "... result from (highest) is a high-confidence match to X"  
-        "results from (lower 2) are non-contributory"
+        "results from (lower 2) are inconclusive"
 - L M L :: suggestive by v12 :: __SUG by 1__ module
 - L M M :: suggestive by v12 and nci :: __SUG by 2__ module  
         :: must test whether same  
@@ -37,7 +36,7 @@ expand.grid(c("H", "M", "L"), c("H", "M", "L"), c("H", "M", "L"))
         if different, then sort by score  
         "... result from (higher) is suggestive of X while ..."  
         "... result from (lower) is suggestive of Y"  
-        "result from (lowest) is non-contributory"
+        "result from (lowest) is inconclusive"
 - L M H :: suggestive by v12 and match by nci :: __MAT by 1 SUG by 1__ module  
         :: must test whether same  
         "there is no consensus methylation match but ..."  
@@ -47,7 +46,7 @@ expand.grid(c("H", "M", "L"), c("H", "M", "L"), c("H", "M", "L"))
         if different, then  
         "... result from (higher) is a high-confidence match to X while ..."  
         "... result from (lower) is suggestive of Y"  
-        "result from (lowest) is non-contributory"
+        "result from (lowest) is inconclusive"
 - L H L :: match by v12 :: __MAT by 1__ module
 - L H M :: match by v12 and suggestive by nci :: __MAT by 1 SUG by 1__ module
 - L H H :: match by v12 and nci :: __MAT by 2__ module  
@@ -58,7 +57,7 @@ expand.grid(c("H", "M", "L"), c("H", "M", "L"), c("H", "M", "L"))
         if different, then  
         "... result from (higher) is a high-confidence match to X while ..."  
         "... result from (lower) is a high-confidence match to Y"  
-        "result from (lowest) is non-contributory"
+        "result from (lowest) is inconclusive"
 
 ### Second set of combinations
 - M L L :: suggestive by v11 :: __SUG by 1__ module

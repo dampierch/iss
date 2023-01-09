@@ -1,2 +1,4 @@
 note_chd.tex
 *.pdf
+drafts/
+__pycache__/

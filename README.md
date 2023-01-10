@@ -1,4 +1,4 @@
-# In-silico Consultation Report
+# In silico Consultation Report
 A set of bash and Python scripts to create an in silico consultation report
 using Latex.
 
